@@ -1,7 +1,7 @@
 
 /* --Définition des polices-- */
 
-h1 p{
+body{
 
 	font-family: Arial, Verdana, Serif;
 
@@ -13,7 +13,9 @@ h1 p{
 
 }
 
-
+body{
+	margin-left: 30px;
+}
 
 /* --Header-- */
 
@@ -30,24 +32,40 @@ header{
 	align-items: center;
 }
 
-nav {
+#logo img{
+	width: 120px;
+	height: 50px;
+}
+
+nav{
 	display: flex;
 	justify-content: flex-end;
 	align-items: center;
+	
 }
 
-ul{
+#navigateur{
 	list-style-type: none;
 	display: flex;
 
 }
 
-a{
-	border-left: solid;
+nav li{
+	margin: 0 10px 0 20px;
+}
 
+nav a{
+	color: #0065FC;
 
 }
 
+nav a:hover{
+	border-left: solid;
+}
+
+nav a:visited{
+	color: #77818B;
+}
 
 /* --Main--*/
 
@@ -69,4 +87,21 @@ a{
 	border: solid;
 	width: 80%;
 	height: 50px;
+}
+
+
+/* --Section 2-- */
+
+#hébergements{
+	flex: 2;
+	height: 650px;
+	margin-right: 20px;
+	border-radius: 10px;
+
+}
+
+#hotels-populaires{
+	flex: 1;
+	height: 650px;
+	border-radius: 10px;
 }
