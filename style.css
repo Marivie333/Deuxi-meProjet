@@ -8,6 +8,11 @@ body{
 
 }
 
+section2 h1{
+	font-size: x-large;
+	margin-left: 20px;
+}
+
 @font-face{
 	font-family: 'raleway';
 	src:  url('.fonts/Raleway-Regular.ttf');
@@ -112,11 +117,37 @@ section2{
 	background-color: #E2E4E5;
 }
 
+.premièreligne{
+	display: flex;
+}
+
+.img1{
+	height: 50px;
+	width: 50px;
+	border-radius: 10px;
+	margin-bottom: 20px;
+}
+
+figure1{
+	height: 50px;
+	width: 50px;
+	border-radius: 10px;
+	margin-bottom: 20px;	
+}
+
+
+
+
 aside{
 	border-radius: 10px;
 	flex: 1;
 	background-color: #E2E4E5;
 }
+
+
+
+
+
 
 /* --Section 3--*/
 
