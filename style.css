@@ -15,6 +15,8 @@ body{
 }
 
 
+
+
 /* --Header-- */
 
 header{
@@ -94,16 +96,34 @@ nav a:hover{
 
 /* --Section 2-- */
 
-#hébergements{
-	flex: 2;
+section2{
+	display: flex;
 	height: 650px;
-	margin-right: 20px;
-	border-radius: 10px;
-
+	width: 100%;
+	margin-top: 10px;
+	
 }
 
-#hotels-populaires{
+
+#hotel-marseille{
+	margin-right:  20px;
+	border-radius: 10px;
 	flex: 1;
-	height: 650px;
-	border-radius: 10px;
+	background-color: #E2E4E5;
 }
+
+aside{
+	border-radius: 10px;
+	flex: 2;
+	background-color: #E2E4E5;
+}
+
+/* --Section 3--*/
+
+section3{
+	height: 650px;
+	border: solid;
+}
+
+
+
