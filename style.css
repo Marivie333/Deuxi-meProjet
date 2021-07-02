@@ -50,28 +50,24 @@ nav{
 
 nav li{
 	margin: 0 10px 0 20px;
-	color: #0065FC;
 	font-weight: normal;
-}
-
-.decorationsNone{
-	text-decoration: none;
 }
 
 
 
 nav a{
+	font-size: 1.3em;
 	color: #0065FC;
+	padding-top: 30px;
+	text-decoration: none;
 
 }
 
 nav a:hover{
-	border-left: solid;
+	border-top: solid;
+	color: #77818B  ;
 }
 
-nav a:visited{
-	color: #77818B;
-}
 
 /* --Main--*/
 
