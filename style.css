@@ -105,16 +105,16 @@ section2{
 }
 
 
-#hotel-marseille{
+#hotels-marseille{
 	margin-right:  20px;
 	border-radius: 10px;
-	flex: 1;
+	flex: 3;
 	background-color: #E2E4E5;
 }
 
 aside{
 	border-radius: 10px;
-	flex: 2;
+	flex: 1;
 	background-color: #E2E4E5;
 }
 
