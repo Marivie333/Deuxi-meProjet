@@ -188,20 +188,30 @@ section2{
 }
 
 .image1{
+	background-image: url("images/hebergements/4_small/hotel_de_la_mer.jpg");
+	background-size: cover;
+	background-position: center;
 	width: 100%;
-	border-radius: 10px;
+	height: 130px;
+	border-radius: 15px 15px 0 0;
 	margin-bottom: 20px;
 }
 
 .image2{
+	background-image: url("images/hebergements/4_small/lepanier.jpg");
+	background-size: cover;
+	background-position: center;
 	width: 100%;
-	border-radius: 10px;
+	height: 130px;
+	border-radius: 15px 15px 0 0;
 	margin-bottom: 20px;
 }
 
 .image3{
+	background-image: url("images/hebergements/4_small/chez_amina1.jpg");
 	width: 100%;
-	border-radius: 10px;
+	height: 130px;
+	border-radius: 15px 15px 0 0;
 	margin-bottom: 20px;
 }
 
