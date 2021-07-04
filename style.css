@@ -258,8 +258,12 @@ aside{
 }
 
 .légende{
+	word-wrap: break-word;
+	margin-left: 10px;
+	margin-right: 10px;
 
 }
+
 
 
 #hotel1{
