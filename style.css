@@ -311,5 +311,12 @@ section3{
 	margin-top: 10pxS;
 }
 
+.activités{
+	height: 650px;
+	width: 100%;
+	border-radius: 20px;
+	background-color: white;
+
+}
 
 
