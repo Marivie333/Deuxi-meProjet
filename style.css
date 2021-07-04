@@ -257,12 +257,16 @@ aside{
 	margin: auto;	
 }
 
+.légende{
+
+}
+
 
 #hotel1{
 	background-image: url("images/hebergements/4_small/Soleil-du-matin.jpg");
 	background-size: cover;
 	background-position: left;
-	width: 100%;
+	width: 80%;
 	height: 160px;
 	border-radius: 15px 0 0 15px;
 	margin-left: 10px;
@@ -272,7 +276,7 @@ aside{
 	background-image: url("images/hebergements/4_small/Coeur-de-leau.jpg");
 	background-size: cover;
 	background-position: left;
-	width: 100%;
+	width: 80%;
 	height: 160px;
 	border-radius: 15px 0 0 15px;
 	margin-left: 10px;
@@ -282,11 +286,13 @@ aside{
 	background-image: url("images/hebergements/4_small/Toutbleuetblanc.jpg");
 	background-size: cover;
 	background-position: left;
-	width: 100%;
+	width: 80%;
 	height: 160px;
 	border-radius: 15px 0 0 15px;
 	margin-left: 10px;
 }
+
+
 
 
 
