@@ -248,8 +248,9 @@ aside{
 }
 
 .blocaside{
+	display: flex;
 	width: 85%;
-	height: 140px;
+	height: 160px;
 	background-color: white;
 	padding: 1%;
 	border-radius: 20px;
@@ -261,7 +262,7 @@ aside{
 /* --Section 3--*/
 
 section3{
-	display: inline-flex;
+	display: flex;
 	height: 650px;
 	width: 100%;
 	border: solid;
