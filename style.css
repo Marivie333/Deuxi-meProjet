@@ -239,6 +239,9 @@ section2{
 /* --Bloc Aside de la Section 2-- */
 
 aside{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
 	border-radius: 10px;
 	flex: 1;
 	background-color: #E2E4E5;
