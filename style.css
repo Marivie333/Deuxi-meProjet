@@ -135,7 +135,7 @@ section2{
 
 #hotels-marseille{
 	margin-right:  20px;
-	border-radius: 10px;
+	border-radius: 20px;
 	flex: 3;
 	background-color: #E2E4E5;
 }
@@ -242,7 +242,7 @@ aside{
 	display: flex;
 	flex-direction: column;
 	justify-content: space-around;
-	border-radius: 10px;
+	border-radius: 20px;
 	flex: 1;
 	background-color: #E2E4E5;
 }
@@ -256,6 +256,38 @@ aside{
 	border-radius: 20px;
 	margin: auto;	
 }
+
+
+#hotel1{
+	background-image: url("images/hebergements/4_small/Soleil-du-matin.jpg");
+	background-size: cover;
+	background-position: left;
+	width: 100%;
+	height: 160px;
+	border-radius: 15px 0 0 15px;
+	margin-left: 10px;
+}
+
+#hotel2{
+	background-image: url("images/hebergements/4_small/Coeur-de-leau.jpg");
+	background-size: cover;
+	background-position: left;
+	width: 100%;
+	height: 160px;
+	border-radius: 15px 0 0 15px;
+	margin-left: 10px;
+}
+
+#hotel3{
+	background-image: url("images/hebergements/4_small/Toutbleuetblanc.jpg");
+	background-size: cover;
+	background-position: left;
+	width: 100%;
+	height: 160px;
+	border-radius: 15px 0 0 15px;
+	margin-left: 10px;
+}
+
 
 
 
