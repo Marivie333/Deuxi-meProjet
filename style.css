@@ -308,15 +308,14 @@ section3{
 	height: 650px;
 	width: 100%;
 	border: solid;
-	margin-top: 10pxS;
+	margin-top: 10px;
 }
 
 .activités{
-	display: flex;
-	flex-direction: column;
 	justify-content: space-around;
-	height: 300px;
-	width: 100%;
+	align-content: center;
+	height: 550px;
+	width: 60%;
 	border-radius: 20px;
 	background-color: white;
 
@@ -326,8 +325,8 @@ section3{
 	background-image: url("images/activites/4_small/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg");
 	background-size: cover;
 	background-position: top;
-	width: 100%;
-	height: 600px;
+	width: 60%;
+	height: 550px;
 	border-radius: 15px 15px 0 0;
 	margin-bottom: 10px;
 }
@@ -382,3 +381,8 @@ section3{
 	margin-bottom: 10px;
 }
 
+
+
+
+
+/* --Footer-- */
