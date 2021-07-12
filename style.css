@@ -405,8 +405,8 @@ section3{
 
 footer{
 	display: flex;
-	
 	background-color: #F2F2F2;
+	width: 100%;
 	height: 150px;
 	padding-top: 15px;
 	padding-bottom: 15px;
@@ -422,4 +422,19 @@ footer a{
 
 footer a:hover{
 	color: #77818B;
+}
+
+.titres{
+	display: inline;
+	
+}
+
+.liens{
+	margin-right: 200px;
+	margin-top: 40px;
+	padding-left: 30px;
+}
+
+.liens div a{
+	margin-top: 10px;
 }
