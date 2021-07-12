@@ -10,11 +10,13 @@ body{
 
 section2 h1{
 	font-size: x-large;
+	font-weight: normal;
 	margin-left: 20px;
 }
 
 section3 h1{
 	font-size: x-large;
+	font-weight: normal;
 	margin-left: 20px;
 }
 
@@ -96,7 +98,9 @@ nav a:hover{
 }
 
 
-/* --Main--*/
+/* --Fin du header--*/
+
+/* --Section 1 Bloc Recherche--  */
 
 
 #hébergements-recherche{
@@ -410,7 +414,6 @@ footer{
 	height: 180px;
 	padding-top: 15px;
 	padding-bottom: 15px;
-	padding-left: 10px;
 	margin-top: 10px;
 }
 
@@ -432,7 +435,7 @@ footer a:hover{
 .liens{
 	margin-right: 200px;
 	margin-top: 40px;
-	padding-left: 30px;
+	padding-left: 50px;
 }
 
 div{
