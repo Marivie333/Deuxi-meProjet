@@ -111,6 +111,7 @@ nav a:hover{
 
 
 #bouton-recherche{
+	display: flex;
 	border: solid;
 	width: 300px;
 	height: 50px;
@@ -315,43 +316,38 @@ section3{
 	margin-top: 10px;
 }
 
-.activités{
+.bloc-activités{
 	display: flex;
-	justify-content: space-around;
-	align-content: baseline;
+	height: 600px;
+	width: 50%;
+	margin: auto;
+}
+
+.activités1{
 	height: 550px;
-	width: 60%;
-	border-radius: 20px;
-	background-color: white;
-
+	width: 30px;
+	border-radius: 20px 20px 0 0;
 }
 
-#activités2{
-	display: flex;
-	flex-direction: column;
-	justify-content: space-around;
-	align-content: center;
+.activités2{
 	height: 550px;
-	width: 60%;
+	width: 30px;
+	border-radius: 20px 20px 0 0;
 }
 
-#photo_dessus{
-	height: 255px;
-	width: 60%;
-	background-color: white;
+#img2{
+	height: 275px;
+	width: 30px;
+	border-radius: 20px 20px 0 0;
+}
+
+#img3{
+	height: 275px;
+	width: 30px;
+	border-radius; 20px 20px 0 0;
 }
 
 
-
-#photo4{
-	background-image: url("images/activites/4_small/kilyan-sockalingum-NR8-cBCN3aI-unsplash.jpg");
-	background-size: cover;
-	background-position: top;
-	width: 60%;
-	height: 550px;
-	border-radius: 15px 15px 0 0;
-	margin-bottom: 10px;
-}
 
 
 
