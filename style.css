@@ -8,6 +8,17 @@ body{
 
 }
 
+@font-face{
+	font-family: 'raleway';
+	src:  url('.fonts/Raleway-Regular.ttf');
+
+}
+
+#hébergements-recherche h1{
+	font-size: x-large;
+	font-weight: normal;
+}
+
 section2 h1{
 	font-size: x-large;
 	font-weight: normal;
@@ -35,11 +46,6 @@ span{
 
 
 
-@font-face{
-	font-family: 'raleway';
-	src:  url('.fonts/Raleway-Regular.ttf');
-
-}
 
 
 
@@ -109,13 +115,33 @@ nav a:hover{
 	height: 30%;
 }
 
-
 #bouton-recherche{
 	display: flex;
 	border: solid;
 	width: 300px;
 	height: 50px;
 }
+
+#logo-recherche{
+
+	width: 30px;
+	height: 25px;
+	padding: 10px;
+	border-radius: 10px 0 0 10px;
+	background-color: #F2F2F2;
+}
+
+
+input{
+width: 200px;
+height: 40px;
+text-align: left;
+}
+
+
+
+/* --Filtres recherche dans Section 1-- */
+
 
 #filtres{
 	border: solid;
