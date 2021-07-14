@@ -120,6 +120,7 @@ nav a:hover{
 	display: flex;
 	width: 400px;
 	height: 50px;
+	margin-bottom: 20px;
 }
 
 #logo-recherche{
@@ -132,9 +133,6 @@ nav a:hover{
 	/*position: relative;*/
 }
 
-i{
-	text-align: center;
-}
 
 #champs input{
 width: 210px;
@@ -151,7 +149,7 @@ color: black;
 	border-radius: 0 10px 10px 0;
 	background-color: #0065FC;
 	color: white;
-	font-weight: bold;
+	font-size: 18px;
 	text-align: center;
 	cursor: pointer;
 }
@@ -168,8 +166,9 @@ color: black;
 #filtres{
 	display: flex;
 	/*border: solid;*/
-	width: 80%;
+	width: 90%;
 	height: 50px;
+	margin-top: 20px;
 }
 
 #titre{
@@ -180,7 +179,13 @@ color: black;
 
 .bloc-filtre{
 	display: flex;
+	align-items: flex-end;
 	margin: auto;
+	margin-left: 15px;
+	height: 50px;
+	border: solid 2px #BDBABA;
+	border-left: none;
+	border-radius: 35px;
 }
 
 .icone{
@@ -188,12 +193,18 @@ color: black;
 	background-color: #DEEBFF;
 	color: #0065FC;
 	border-radius: 35px;
+	cursor: pointer;
+}
+
+.icone:hover{
+	color: white;
+	background-color: #0065FC;
 }
 
 .description{
-	padding: 10px;
+	padding: 15px;
+	text-align: center;
 	font-size: 18px;
-
 }
 
 
@@ -206,6 +217,8 @@ color: black;
 
 #icone-info{
 	padding: 10px;
+	background-color: white;
+	color: black;
 }
 
 
