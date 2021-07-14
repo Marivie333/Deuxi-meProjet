@@ -129,6 +129,7 @@ nav a:hover{
 	padding: 10px;
 	border-radius: 10px 0 0 10px;
 	background-color: #F2F2F2;
+	/*position: relative;*/
 }
 
 i{
@@ -165,14 +166,42 @@ color: black;
 
 
 #filtres{
-	border: solid;
+	display: flex;
+	/*border: solid;*/
 	width: 80%;
 	height: 50px;
 }
 
+#titre{
+	text-align: center;
+	margin: auto;
+	padding-left: 10px;
+}
+
+.bloc-filtre{
+	display: flex;
+	margin: auto;
+}
+
+.icone{
+	padding: 15px;
+	background-color: #DEEBFF;
+	color: #0065FC;
+	border-radius: 35px;
+}
+
+.description{
+	padding: 10px;
+	font-size: 18px;
+
+}
+
+
+/* --Information dans Section 1--*/
+
 #information{
 	display: flex;
-	align-items: centerS;
+	align-items: center;
 }
 
 #icone-info{
