@@ -1,5 +1,5 @@
 
-/* --Définition des polices-- */
+/* --Définition des polices et taille du texte-- */
 
 body{
 
@@ -164,6 +164,7 @@ text-align: left;
 
 #information{
 	display: flex;
+	align-items: centerS;
 }
 
 #icone-info{
