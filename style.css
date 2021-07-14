@@ -110,14 +110,13 @@ nav a:hover{
 
 
 #hébergements-recherche{
-	border: solid;
+	
 	width: 80%;
 	height: 30%;
 }
 
 #bouton-recherche{
 	display: flex;
-	border: solid;
 	width: 300px;
 	height: 50px;
 }
@@ -136,6 +135,12 @@ input{
 width: 200px;
 height: 40px;
 text-align: left;
+}
+
+#bouton{
+	width: 100px;
+	height: 40px;
+	color: #0065FC;
 }
 
 
@@ -194,7 +199,7 @@ section2{
 }
 
 
-.img1{
+/*.img1{
 	background-image: url("images/hebergements/4_small/cannebiere.jpg");
 	background-size: cover;
 	background-position: center;
@@ -223,7 +228,7 @@ section2{
 	height: 130px;
 	border-radius: 15px 15px 0 0;
 	margin-bottom: 20px;
-}
+}*/
 
 
 /* --Deuxième ligne du bloc hébergement Marseille-- */
@@ -236,7 +241,7 @@ section2{
 	margin-top: 50px;
 }
 
-.image1{
+/*.image1{
 	background-image: url("images/hebergements/4_small/hotel_de_la_mer.jpg");
 	background-size: cover;
 	background-position: center;
@@ -264,7 +269,7 @@ section2{
 	height: 130px;
 	border-radius: 15px 15px 0 0;
 	margin-bottom: 20px;
-}
+}*/
 
 
 /* --Bloc Aside de la Section 2-- */
@@ -297,8 +302,7 @@ aside{
 
 
 
-#hotel1{
-	background-image: url("images/hebergements/4_small/Soleil-du-matin.jpg");
+/*	background-image: url("images/hebergements/4_small/Soleil-du-matin.jpg");
 	background-size: cover;
 	background-position: left;
 	width: 80%;
@@ -325,7 +329,7 @@ aside{
 	height: 160px;
 	border-radius: 15px 0 0 15px;
 	margin-left: 10px;
-}
+}*/
 
 
 
