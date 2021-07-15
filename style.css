@@ -242,7 +242,7 @@ color: black;
 
 /* --Hébergements à Marseille-- */
 
-#grand-titre{
+.grand-titre{
 	padding-top: 10px;
 }
 
@@ -279,7 +279,7 @@ color: black;
 	transform: scale(1.05);
 }
 
-img{
+.blochotel img{
 	width: 100%;
 	height: 150px;
 	border-radius: 20px 20px 0 0;
@@ -288,10 +288,12 @@ img{
 
 .caption{
 	width: 100%;
+	height: 80px;
 	text-align: left;
 	font-size: 12px;
 	padding-left: 5px;
 	position: absolute;
+	padding-bottom: 10px;
 }
 
 .caption h2{
@@ -333,7 +335,7 @@ aside{
 	display: flex;
 	flex-direction: column;
 	justify-content: space-around;
-	align-items: center;
+	align-items: stretch;
 }
 
 .blocaside{
@@ -343,29 +345,31 @@ aside{
 	background-color: white;
 	padding: 1%;
 	border-radius: 20px;
-	margin: auto;	
+	margin-left: 25px;
+	margin-bottom: 10px;
+	
+}
+
+.blocaside:hover{
+	cursor: pointer;
+	transform: scale(1.05);
+}
+
+.blocaside img{
+	width: 35%;
+	height: 160px;
+	border-radius: 20px 0 0 20px;
+	object-fit: cover;
 }
 
 .légende{
 	word-wrap: break-word;
 	margin-left: 10px;
 	margin-right: 10px;
+	font-size: 12px;
 
 }
 
-
-
-/*	
-
-#hotel2{
-	background-image: url("images/hebergements/4_small/Coeur-de-leau.jpg");
-	background-size: cover;
-	background-position: left;
-	width: 80%;
-	height: 160px;
-	border-radius: 15px 0 0 15px;
-	margin-left: 10px;
-}
 
 
 
