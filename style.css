@@ -381,29 +381,54 @@ aside{
 
 /* --Section 3--*/
 
-section3{
+.activités-marseille{
 	display: flex;
 	height: 650px;
 	width: 100%;
 	margin-top: 10px;
 }
 
-.bloc-activités{
-	height: 500px;
+.activités-grand-bloc{
+	display: flex;
+	height: 650px;
+	width: 50%;
+	border: 2px solid black;
+}
+
+
+
+/*.bloc-activités{
+	height: 450px;
 	width: 50%;
 	border-radius: 20px;
 
-	
+}*/
+
+.bloc-activités figure{
+	height: 450px;
+	width: 50%;
+	border-radius: 20px;
 }
+
+
+.activités-colonne{
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-around;
+	height: 450px;
+	width: 50%;
+
+}
+
 
 .bloc-activités-mini{
-	height: 250px;
+	height: 200px;
 	width: 50%;
 	border-radius: 20px;
 
 }
 
-.activités1{
+/*.activités1{
 	height: 550px;
 	width: 30px;
 	border-radius: 20px 20px 0 0;
@@ -433,7 +458,7 @@ section3{
 
 
 
-/* --Footer-- */
+/* --Footer-- 
 
 footer{
 	display: flex;
