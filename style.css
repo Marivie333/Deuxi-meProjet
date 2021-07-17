@@ -390,26 +390,47 @@ aside{
 .bloc1{
 	display: flex;
 	height: 650px;
-	width: 50%;
-
+	width: 300px;
 
 }
 
+.bloc2{
+	diplay:  flex;
+	height: 650px;
+	width: 300px;
+}
 
-.activités-grand-bloc{
+
+/*.activités-grand-bloc{
 	display: flex;
 	height: 650px;
 	width: 50%;
-	border: 2px solid black;
+
+}*/
+
+.bloc-activités{
+	height: 600px;
+	width: 300px;
+	border-radius: 20px;
+	background-color: white;
+	box-shadow: 2px 2px 6px grey;
+}
+
+.bloc-activités p{
+	padding-top: -15px;
+	padding-left: 10px;
+	padding-bottom: 10px;
 }
 
 
-
 .bloc-activités img{
-	height: 450px;
-	width: 200px;
+	height: 550px;
+	width: 300px;
 	border-radius: 20px 20px 0 0;
 	object-fit: cover;
+	/*box-shadow: 2px 2px 6px grey;
+	margin: auto;*/
+
 }
 
 
@@ -427,6 +448,7 @@ aside{
 	height: 200px;
 	width: 200px;
 	border-radius: 20px 20px 0 0;
+	object-fit: cover;
 
 }
 
