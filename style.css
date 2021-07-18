@@ -244,7 +244,7 @@ color: black;
 /* --Hébergements à Marseille-- */
 
 .grand-titre{
-	padding-top: 10px;
+	padding-top: 15px;
 }
 
 
@@ -254,10 +254,10 @@ color: black;
 	border-radius: 20px;
 	flex: 2;
 	background-color: #F2F2F2;
+	margin-bottom: 35px;
 }
 
 
-/* --Première ligne du bloc hébergement Marseille--*/
 
 #premièreligne{
 	display: flex;
@@ -265,6 +265,15 @@ color: black;
 	height: 230px;
 	margin: auto;
 }
+
+#deuxièmeligne{
+	display: flex;
+	justify-content: space-around;
+	width: 100%;
+	height: 230px;
+	margin-top: 50px;
+}
+
 
 .blochotel{
 	width: 28%;
@@ -312,15 +321,6 @@ color: black;
 }
 
 
-/* --Deuxième ligne du bloc hébergement Marseille-- */
-
-#deuxièmeligne{
-	display: flex;
-	justify-content: space-around;
-	width: 100%;
-	height: 230px;
-	margin-top: 50px;
-}
 
 
 
@@ -387,16 +387,16 @@ aside{
 .activités-marseille{
 	display: flex;
 	justify-content: space-between;
-	height: 650px;
+	align-items: center;
+	height: 600px;
 	width: 100%;
-	margin-top: 10px;
+	margin-top: 20px;
+	margin-bottom: 35px;
 }
 
 #bloc1{
-	display: flex;
-	height: 650px;
+	height: 600px;
 	width: 300px;
-
 }
 
 #bloc1:hover{
@@ -407,8 +407,7 @@ aside{
 
 
 #bloc2{
-	diplay:  flex;
-	height: 650px;
+	height: 600px;
 	width: 300px;
 }
 
@@ -420,7 +419,7 @@ aside{
 #petit-bloc1{
 	display: flex;
 	flex-direction: column;
-	justify-content: space-around;
+	justify-content: space-between;
 	height: 600px;
 	width: 300px;
 
@@ -429,11 +428,10 @@ aside{
 #petit-bloc2{
 	display: flex;
 	flex-direction: column;
-	justify-content: space-around;
-	height: 650px;
+	justify-content: space-between;
+	height: 600px;
 	width: 300px;
 }
-
 
 
 .bloc-activités{
@@ -445,9 +443,7 @@ aside{
 }
 
 .bloc-activités p{
-	padding-top: -15px;
-	padding-left: 10px;
-	padding-bottom: 10px;
+	margin: 10px 10px;
 }
 
 
@@ -456,23 +452,18 @@ aside{
 	width: 300px;
 	border-radius: 20px 20px 0 0;
 	object-fit: cover;
-	/*box-shadow: 2px 2px 6px grey;
-	margin: auto;*/
-
 }
 
 
 
 .activités-mini1{
-	height: 450px;
+	height: 350px;
 	width: 300px;
 	border-radius: 20px;
 	background-color: white;
 	box-shadow: 2px 2px 6px grey;
 
-
 }
-
 
 
 .activités-mini1 img{
@@ -484,14 +475,17 @@ aside{
 }
 
 .activités-mini1 p{
-	padding-top: -15px;
-	padding-left: 10px;
-	padding-bottom: 10px;	
+	margin: 20px 10px;	
+}
+
+.activités-mini1:hover{
+	cursor: pointer;
+	transform: scale(1.05);
 }
 
 
 .activités-mini2{
-	flex: 200px;
+	height: 200px;
 	width: 300px;
 	border-radius: 20px;
 	background-color: white;
@@ -505,8 +499,16 @@ aside{
 	object-fit: cover;	
 }
 
+.activités-mini2 p{
+	margin-left: 10px;
+	margin-top: 5px;
+}
 
 
+.activités-mini2:hover{
+	cursor: pointer;
+	transform: scale(1.05);
+}
 
 
 
@@ -520,7 +522,7 @@ footer{
 	height: 180px;
 	padding-top: 15px;
 	padding-bottom: 15px;
-	margin-top: 10px;
+	margin-top: 20px;
 }
 
 footer a{
