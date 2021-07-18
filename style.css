@@ -267,7 +267,7 @@ color: black;
 }
 
 .blochotel{
-	width: 30%;
+	width: 28%;
 	height: 230px;
 	background-color: white;
 	padding: 0.5%;
@@ -305,6 +305,10 @@ color: black;
 	margin-top: -5px;
 	color: #0065FC;
 	font-size: 12px;
+}
+
+.gris i{
+	color: #ABADAF;
 }
 
 
@@ -382,23 +386,53 @@ aside{
 
 .activités-marseille{
 	display: flex;
+	justify-content: space-between;
 	height: 650px;
 	width: 100%;
 	margin-top: 10px;
 }
 
-.bloc1{
+#bloc1{
 	display: flex;
 	height: 650px;
 	width: 300px;
 
 }
 
-.bloc2{
+#bloc1:hover{
+	cursor: pointer;
+	transform: scale(1.05);
+}
+
+#bloc2:hover{
+	cursor: pointer;
+	transform: scale(1.05);
+}
+
+
+#bloc2{
 	diplay:  flex;
 	height: 650px;
 	width: 300px;
 }
+
+#petit-bloc1{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	height: 600px;
+	width: 300px;
+
+}
+
+#petit-bloc2{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	height: 650px;
+	width: 300px;
+}
+
 
 
 /*.activités-grand-bloc{
@@ -434,47 +468,40 @@ aside{
 }
 
 
-.activités-colonne{
-	display: flex;
-	flex-direction: column;
-	justify-content: flex-around;
+.activités-mini1{
 	height: 450px;
-	width: 200px;
+	width: 300px;
+	border-radius: 20px;
+	background-color: white;
+	box-shadow: 2px 2px 6px grey;
+
 
 }
 
 
-.bloc-activités-mini img{
-	height: 200px;
-	width: 200px;
+.activités-mini1 img{
+	height: 80%;
+	width: 300px;
 	border-radius: 20px 20px 0 0;
 	object-fit: cover;
 
 }
 
-/*.activités1{
-	height: 550px;
-	width: 30px;
-	border-radius: 20px 20px 0 0;
-}
 
-.activités2{
-	height: 550px;
-	width: 30px;
-	border-radius: 20px 20px 0 0;
-}
+.activités-mini2{
+	flex: 200px;
+	width: 300px;
+	border-radius: 20px;
+	background-color: white;
+	box-shadow: 2px 2px 6px grey;
+}	
 
-#img2{
-	height: 275px;
-	width: 30px;
+.activités-mini2 img{
+	height: 80%;
+	width: 300px;
 	border-radius: 20px 20px 0 0;
+	object-fit: cover;	
 }
-
-#img3{
-	height: 275px;
-	width: 30px;
-	border-radius; 20px 20px 0 0;
-}*/
 
 
 
