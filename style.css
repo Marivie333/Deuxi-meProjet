@@ -404,16 +404,17 @@ aside{
 	transform: scale(1.05);
 }
 
-#bloc2:hover{
-	cursor: pointer;
-	transform: scale(1.05);
-}
 
 
 #bloc2{
 	diplay:  flex;
 	height: 650px;
 	width: 300px;
+}
+
+#bloc2:hover{
+	cursor: pointer;
+	transform: scale(1.05);
 }
 
 #petit-bloc1{
@@ -434,13 +435,6 @@ aside{
 }
 
 
-
-/*.activités-grand-bloc{
-	display: flex;
-	height: 650px;
-	width: 50%;
-
-}*/
 
 .bloc-activités{
 	height: 600px;
@@ -468,6 +462,7 @@ aside{
 }
 
 
+
 .activités-mini1{
 	height: 450px;
 	width: 300px;
@@ -479,12 +474,19 @@ aside{
 }
 
 
+
 .activités-mini1 img{
 	height: 80%;
 	width: 300px;
 	border-radius: 20px 20px 0 0;
 	object-fit: cover;
 
+}
+
+.activités-mini1 p{
+	padding-top: -15px;
+	padding-left: 10px;
+	padding-bottom: 10px;	
 }
 
 
