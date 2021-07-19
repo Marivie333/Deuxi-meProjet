@@ -224,8 +224,15 @@ color: black;
 }
 
 #icone-info{
-	padding: 10px;
-	color: blue;
+	width: 20px;
+	height: 20px;
+	padding: 4px 4px;
+	color: #0065FC;
+	border: solid 1px #BDBABA;
+	border-radius: 25px;
+	font-size: 12px;
+	text-align: center;
+	margin-right: 20px;
 }
 
 
