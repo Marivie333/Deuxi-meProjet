@@ -201,7 +201,7 @@ border: none;
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	text align: center;
+
 	margin: auto;
 	margin-left: 15px;
 	height: 50px;
@@ -227,7 +227,8 @@ border: none;
 }
 
 .bloc-filtre:hover >.description{
-	color: #77818B;
+	color: #0065FC;
+	background-color: #DEEBFF;
 }
 
 .bloc-filtre:hover >.icone{
@@ -248,7 +249,7 @@ border: none;
 	width: 20px;
 	height: 20px;
 	position: relative;
-	top: 5px;
+	top: 5x;
 	color: #0065FC;
 	border: solid 1px #BDBABA;
 	border-radius: 25px;
