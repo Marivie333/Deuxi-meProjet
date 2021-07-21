@@ -84,7 +84,9 @@ nav ul{
 
 
 nav li{
-	margin: 0 10px 0 20px;
+	margin: 0 20px 0 20px;
+	padding: 10px;
+	border: 1px solid black;
 	font-weight: normal;
 }
 
@@ -92,7 +94,7 @@ nav li{
 
 nav a{
 	font-size: 1.3em;
-	color: #0065FC;
+	color: black;
 	padding-top: 30px;
 	text-decoration: none;
 
@@ -100,7 +102,12 @@ nav a{
 
 nav a:hover{
 	border-top: solid;
-	color: #77818B;
+	color: #0065FC;
+}
+
+#inscription a{
+	color: #0065FC;
+	font-weight: bold;
 }
 
 
