@@ -366,6 +366,10 @@ aside{
 	margin-left: -50px;
 }
 
+#chart{
+	margin-right: -20px;
+}
+
 
 #hotels-populaires{
 	display: flex;
