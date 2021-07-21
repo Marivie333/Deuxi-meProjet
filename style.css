@@ -355,6 +355,7 @@ aside{
 	flex: 1;
 	background-color: #F2F2F2;
 	margin-left: 20px;
+	margin-top: -22px;
 }
 
 #titre-chart{
@@ -362,13 +363,14 @@ aside{
 	justify-content: space-around;
 	align-items: center;
 	font-size: 18px;
+	margin-left: -50px;
 }
+
 
 #hotels-populaires{
 	display: flex;
 	flex-direction: column;
 	justify-content: space-around;
-	align-items: stretch;
 	margin-bottom: 20px;
 }
 
