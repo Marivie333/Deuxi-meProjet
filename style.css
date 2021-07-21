@@ -76,7 +76,7 @@ nav{
 	
 }
 
-#navigateur{
+nav ul{
 	list-style-type: none;
 	display: flex;
 
