@@ -19,6 +19,7 @@ body{
 	font-weight: bold;
 }
 
+
 #ancre1 h1{
 	font-size: x-large;
 	font-weight: bold;
@@ -84,9 +85,7 @@ nav ul{
 
 
 nav li{
-	margin: 0 20px 0 20px;
-	padding: 10px;
-	border: 1px solid black;
+	margin: 0 10px 0 10px;
 	font-weight: normal;
 }
 
@@ -95,7 +94,7 @@ nav li{
 nav a{
 	font-size: 1.3em;
 	color: black;
-	padding-top: 30px;
+	padding: 30px;
 	text-decoration: none;
 
 }
@@ -121,19 +120,20 @@ nav a:hover{
 	height: 30%;
 }
 
+
 /* --Bouton recherche-- */
 
 #recherche{
 	display: flex;
 	justify-content: flex-start;
 	align-items: center;
-	width: 400px;
+	width: 100%;
 	height: 50px;
 	margin-bottom: 20px;
 }
 
 #logo-recherche{
-	width: 70px;
+	width: 50px;
 	height: 50px;
 	/*padding: 10px;*/
 	border-radius: 10px 0 0 10px;
@@ -144,8 +144,7 @@ nav a:hover{
 #icone-map{
 	position: relative;
 	top: 15px;
-	left: 15px;
-	
+	left: 20px;
 }
 
 
@@ -157,6 +156,7 @@ text-align: left;
 padding-left: 10px;
 font-size: 18px;
 color: black;
+border: 0.2px grey solid;
 }
 
 #bouton input{
