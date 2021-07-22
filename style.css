@@ -15,11 +15,11 @@ body{
 
 }
 
-#hébergements-recherche h1{
+/*#hébergements-recherche h1{
 	font-size: 20px;
 	font-weight: bold;
 }
-
+*/
 
 #ancre1 h1{
 	font-size: x-large;
@@ -38,14 +38,14 @@ font-size: medium;
 }
 
 p{
-	font-size: 0.8;
+	font-size: 0.8em;
 	font-weight: normal;
 }
 
-span{
+/*span{
 	font-weight: bold;
 }
-
+*/
 
 
 
@@ -58,13 +58,15 @@ header{
 	display:  flex;
 	justify-content: space-between;
 	width: 100%;
+	height: 6rem;
+	max-width: 1440px;
 }
 
-#logo{
+/*#logo{
 	display: flex;
 	flex-direction: row;
-	align-items: center;
-}
+	/*align-items: center;
+}*/
 
 #logo img{
 	width: 120px;
@@ -79,7 +81,7 @@ nav{
 }
 
 nav ul{
-	list-style-type: none;
+	/*list-style-type: none;*/
 	display: flex;
 
 }
@@ -87,13 +89,14 @@ nav ul{
 
 nav li{
 	margin: 0 10px 0 10px;
-	font-weight: normal;
+	font-weight: 400;
+	list-style-type: none;
 }
 
 
 
 nav a{
-	font-size: 1em;
+	font-size: 1.2rem;
 	color: black;
 	padding: 30px;
 	text-decoration: none;
@@ -107,7 +110,7 @@ nav a:hover{
 
 #inscription a{
 	color: #0065FC;
-	font-weight: bold;
+	font-weight: 600;
 }
 
 
@@ -117,10 +120,24 @@ nav a:hover{
 
 #hébergements-recherche{
 	
-	width: 80%;
+	/*width: 80%;*/
+	width: auto;
 	height: 30%;
+	margin: 2%;
 }
 
+.title{
+	color: black;
+	font-size: 1.3rem;
+	font-weight: bold;
+}
+
+.title2{
+	color: black;
+	font-size: 1rem;
+	font-weight: 300;
+	margin-top: -0.8rem;
+}
 
 /* --Bouton recherche-- */
 
@@ -132,18 +149,72 @@ nav a:hover{
 	height: 50px;
 	margin-bottom: 25px;
 	border: 0.5px solid #F2F2F2 ;
-	border-radius: 10px;
+	/*border-radius: 10px;*/
 }
 
-#logo-recherche{
+/*#logo-recherche{
 	width: 50px;
 	height: 50px;
 	box-sizing: border-box;
 	border-radius: 10px 0 0 10px;
 	background-color: #F2F2F2;
+}*/
+
+
+.recherche-form{
+	display: flex;
+	flex-direction: row;
+	margin: 1.25rem 0 1.25rem 0;
+	width: 28rem;
 }
 
-#icone-map{
+
+.recherche-form i{
+	background-color: #F2F2F2;
+	border-radius: 0.625rem 0 0 0.625rem;
+	border-style: none;
+	pointer: cursor;
+	padding: 1rem;
+	text-align: center;
+}
+
+.recherche-input{
+	font-weight: bold;
+	color: black;
+	font-size: 0.8rem;
+	border-top: 0.1rem solid #F2F2F2;
+	border-bottom: 0.1rem solid #F2F2F2;
+	border-left: solid transparent;
+	border-right: solid transparent;
+	padding-left: 0.8rem;
+}
+
+.bouton{
+	background-color: #0065FC;
+	border-radius: 0 0.625 0.625 0;
+	width: 7.8rem;
+	height: 3rem;
+	color: white;
+	border-style: none;
+	cursor: pointer;
+	font-weight: bold;
+	padding-top: 0.9rem;
+	font-size: 0.8rem;
+}
+
+.bouton:hover{
+	background-color:#77818B;
+	transform: scale(1.05);	
+
+}
+
+.bouton i{
+	visibility: hidden;
+}
+
+
+
+/*#icone-map{
 	position: relative;
 	top: 17px;
 	left: 17px;
@@ -178,7 +249,7 @@ border: none;
 #bouton:hover{
 	background-color: #77818B;
 	transform: scale(1.05);	
-}
+}*/
 
 
 
