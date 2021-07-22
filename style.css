@@ -316,13 +316,17 @@ border: none;
 	justify-content: space-around;
 	width: 100%;
 	height: 230px;
-	margin-top: 50px;
+	margin-top: 30px;
 }
 
 #afficher a{
 	text-decoration: none;
 	color: black;
 	font-weight: bold;
+	position: relative;
+	left: 25px;
+	bottom: -25px;
+
 }
 
 #afficher a:hover{
