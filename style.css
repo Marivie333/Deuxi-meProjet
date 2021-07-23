@@ -141,7 +141,7 @@ nav a:hover{
 
 /* --Bouton recherche-- */
 
-#recherche{
+/*#recherche{
 	display: flex;
 	justify-content: flex-start;
 	align-items: center;
@@ -150,7 +150,7 @@ nav a:hover{
 	margin-bottom: 25px;
 	border: 0.5px solid #F2F2F2 ;
 	/*border-radius: 10px;*/
-}
+
 
 /*#logo-recherche{
 	width: 50px;
@@ -166,6 +166,7 @@ nav a:hover{
 	flex-direction: row;
 	margin: 1.25rem 0 1.25rem 0;
 	width: 28rem;
+	border-radius: 0.625rem;
 }
 
 
@@ -327,19 +328,32 @@ border: none;
 	align-items: center;
 }
 
-#icone-info{
+#information i{
+	width: 0.5rem;
+	height: 0.5rem;
+	padding: 0.3rem;
+	color: #0065FC;
+	border: solid 1px #BDBABA;
+	border-radius: 0.600rem;
+	font-size: 0.5rem;
+	text-align: center;
+	margin-right: 1.3rem;
+}
+
+/*.icone-info{
 	width: 20px;
 	height: 20px;
-	position: relative;
-	top: 5x;
+	display: flex;
+	justify-content: center;
+	align-items: center;
 	color: #0065FC;
 	border: solid 1px #BDBABA;
 	border-radius: 25px;
 	font-size: 12px;
-	text-align: center;
+	/*text-align: center;
 	margin-right: 20px;
 }
-
+*/
 
 
 /* --Section 2-- */
