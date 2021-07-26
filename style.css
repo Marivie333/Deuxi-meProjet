@@ -267,10 +267,10 @@ border: none;
 }
 
 #titre-filtre{
-	font-size: 18px;
+	font-size: 1.2rem;
 	text-align:left;
 	margin-right: 20px;
-	font-weight: bold;
+	font-weight: 400;
 }
 
 .bloc-filtre{
@@ -283,16 +283,19 @@ border: none;
 }
 
 .icone{
-	display: flex;
+	/*display: flex;
 	justify-content: center;
-	align-items: center;
+	align-items: center;*/
 	height: 50px;
+	width: 50px;
 	padding: 15px;
 	box-sizing: border-box;
 	background-color: #DEEBFF;
 	color: #0065FC;
 	border-radius: 35px;
 	cursor: pointer;
+	text-align: center;
+	/*padding-top: 15px;*/
 }
 
 
@@ -301,11 +304,14 @@ border: none;
 	justify-content: center;
 	align-items: center;
 	height: 50px;
-	padding: 15px;
+	padding-bottom: 12px;
+	padding-left: 10px;
+	padding-right: 10px;
 	box-sizing: border-box;
 	border-radius: 0 35px 35px 0;
 	text-align: center;
-	font-size: 18px;
+	font-size: 1.2rem;
+	font-weight: 500;
 	cursor: pointer;
 }
 
