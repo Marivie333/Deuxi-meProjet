@@ -512,12 +512,14 @@ aside{
 	flex-direction: column;
 	justify-content: space-around;
 	margin-bottom: 20px;
+	padding-bottom: 40px;
+	padding-left: 8px;
 }
 
 .blocaside{
 	display: flex;
 	width: 85%;
-	height: 160px;
+	height: 155px;
 	background-color: white;
 	padding: 1%;
 	border-radius: 20px;
@@ -534,7 +536,7 @@ aside{
 
 .blocaside img{
 	width: 35%;
-	height: 160px;
+	height: 155px;
 	border-radius: 20px 0 0 20px;
 	object-fit: cover;
 }
