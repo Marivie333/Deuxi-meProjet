@@ -552,8 +552,8 @@ aside{
 	align-items: center;
 	height: 400px;
 	width: 100%;
-	margin-top: 30px;
-	margin-bottom: 35px;
+	margin-top: 25px;
+	margin-bottom: 60px;
 }
 
 #bloc1{
@@ -604,8 +604,8 @@ aside{
 	box-shadow: 2px 2px 6px grey;
 }
 
-.bloc-activités p{
-	margin: 10px 10px;
+.bloc-activités h2{
+	margin: 12px 10px;
 }
 
 
@@ -629,15 +629,16 @@ aside{
 
 
 .activités-mini1 img{
-	height: 80%;
+	height: 75%;
 	width: 300px;
 	border-radius: 20px 20px 0 0;
 	object-fit: cover;
 
 }
 
-.activités-mini1 p{
-	margin: 10px 10px;	
+.activités-mini1 h2{
+	margin-top: 10px;
+	margin-left: 12px;	
 }
 
 .activités-mini1:hover{
@@ -647,7 +648,7 @@ aside{
 
 
 .activités-mini2{
-	height: 150px;
+	height: 155px;
 	width: 300px;
 	border-radius: 20px;
 	background-color: white;
@@ -655,15 +656,17 @@ aside{
 }	
 
 .activités-mini2 img{
-	height: 80%;
+	height: 70%;
 	width: 300px;
 	border-radius: 20px 20px 0 0;
 	object-fit: cover;	
 }
 
-.activités-mini2 p{
-	margin-left: 10px;
-	margin-top: 5px;
+.activités-mini2 h2{
+	margin-top: 10px;
+	margin-left: 15px;
+	/*margin-left: 10px;
+	margin-top: 5px;*/
 }
 
 
