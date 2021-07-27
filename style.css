@@ -732,3 +732,51 @@ footer a:hover{
 div{
 	margin-top: 10px;
 }
+
+
+
+
+/* --Small screen version --*/
+
+
+@media scree and (max-width: 600px){
+
+
+#hébergements{
+	height: auto;
+	flex-direction: column;
+	margin-bottom: 0;
+}
+
+#hotels-marseille{
+	width: 100%;
+	margin-bottom: 50px;
+
+}
+
+.ligne{
+	height: auto;
+	flex-direction: column-reverse;
+	margin-bottom: 0;
+}
+
+.blochotel{
+	min-height: auto;
+}
+
+
+aside{
+	width: 100%;
+
+}
+
+.blocaside{
+
+	min-height: auto;
+}
+
+
+
+
+
+}
