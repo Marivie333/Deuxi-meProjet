@@ -739,12 +739,19 @@ div{
 /* --Small screen version --*/
 
 
-@media screen and (max-width: 600px){
+@media screen and (max-device-width: 480px){
 
+
+body{
+	width: 100%;
+	height: auto;
+	margin: 0;
+}
 
 #hébergements{
+	flex: block;
 	height: auto;
-	flex-direction: column-reverse;
+	width: 100%;
 	margin-bottom: 0;
 }
 
@@ -763,20 +770,45 @@ div{
 
 .blochotel{
 	min-height: auto;
+	width: 100%;
 }
 
+.caption{
+	
+}
+
+
+aside:nthchild(2){
+	order: 1;
+}
 
 aside{
 	width: 100%;
+	margin: 10px 0;
+}
 
+#titre-chart{
+	display: none;
+	padding-left: -20px;
+}
+
+#hotels-populaires{
+	display: block;
+	align-items: center;
+	margin: 5px 0;
+	width: 100%;
 }
 
 .blocaside{
-
+	margin: 0;
+	width: 100%;
 	min-height: auto;
 }
 
-
+.légende{
+	word-wrap: break-word;
+	font-size: 8px;
+}
 
 
 
