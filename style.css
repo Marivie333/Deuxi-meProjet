@@ -739,24 +739,25 @@ div{
 /* --Small screen version --*/
 
 
-@media scree and (max-width: 600px){
+@media screen and (max-width: 600px){
 
 
 #hébergements{
 	height: auto;
-	flex-direction: column;
+	flex-direction: column-reverse;
 	margin-bottom: 0;
 }
 
 #hotels-marseille{
 	width: 100%;
+	flex-direction: column;
 	margin-bottom: 50px;
 
 }
 
 .ligne{
 	height: auto;
-	flex-direction: column-reverse;
+	flex-direction: column;
 	margin-bottom: 0;
 }
 
