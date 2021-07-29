@@ -745,7 +745,8 @@ div{
 body{
 	width: 100%;
 	height: auto;
-	margin: 0;
+	margin: 5px auto;
+	text-align: center;
 }
 
 #hébergements{
@@ -793,8 +794,10 @@ aside{
 }
 
 #hotels-populaires{
-	display: block;
-	align-items: center;
+	display: flex;
+	justify-content: column;
+	/*display: block;
+	align-items: center;*/
 	margin: 5px 0;
 	width: 100%;
 }
