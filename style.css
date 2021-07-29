@@ -749,6 +749,34 @@ body{
 	text-align: center;
 }
 
+
+/* --Header mobile--  */
+
+header{
+	width: 100%;
+	height: auto;
+}
+
+nav{
+	display: block;
+	text-align: center;
+}
+
+nav ul{
+	display: block;
+}
+
+nav li{
+	margin: 20px auto;
+	font-weight: 300;
+}
+
+nav a:hover{
+	border-bottom: solid;
+	color: #0065FC;
+}
+
+
 #hébergements{
 	flex: block;
 	height: auto;
@@ -794,10 +822,8 @@ aside{
 }
 
 #hotels-populaires{
-	display: flex;
-	justify-content: column;
-	/*display: block;
-	align-items: center;*/
+	display: block;
+	align-items: center;
 	margin: 5px 0;
 	width: 100%;
 }
