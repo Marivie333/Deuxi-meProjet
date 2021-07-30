@@ -746,7 +746,7 @@ body{
 	width: 100%;
 	height: auto;
 	margin: 5px auto;
-	text-align: center;
+	/*text-align: center;*/
 }
 
 
@@ -754,28 +754,104 @@ body{
 
 header{
 	width: 100%;
+	max-width: 480px;
 	height: auto;
 }
 
-nav{
+/*nav{
 	display: block;
-	text-align: center;
-}
+	/*text-align: center;
+}/*
 
-nav ul{
+*/nav ul{
 	display: block;
 }
-
+	/*flex-direction: column-reverse;
+}
+*/
 nav li{
 	margin: 20px auto;
 	font-weight: 300;
 }
 
 nav a:hover{
+	border-top: none;
 	border-bottom: solid;
 	color: #0065FC;
+	padding: 10px;
 }
 
+
+#inscription a:nth-child(3){
+	order: 1;
+	border-top: none;
+	border-bottom: none;
+	float: right;
+	padding-right: 5px;
+
+}
+
+
+
+/*  --Section 1 Hébergements-recherche-- */
+
+.title{
+	text-align: justify;
+	padding: 10px;
+}
+
+.title2{
+	text-align: justify;
+	padding: 10px;
+}
+
+#recherche{
+	width: 150px;
+	margin-bottom: 15px;
+	margin-left: 60px;
+
+}
+
+.bouton{
+	width: 50px;
+	border-radius: 20px;
+}
+
+.bouton i{
+	visibility: no hidden;
+}
+
+
+
+/* --Filtre--  */
+
+
+#filtres{
+	flex-direction: row;
+	height: auto;
+	flex-wrap: wrap;
+}
+
+#titre-filtre{
+	flex-direction: column;
+	text-align: left;
+}
+
+
+.bloc-filtre{
+	width: auto;
+}
+
+.icone{
+
+
+}
+
+
+
+
+
+/*  --Section 2 Hotels Marseille--  */
 
 #hébergements{
 	flex: block;
