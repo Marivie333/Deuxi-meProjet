@@ -835,11 +835,15 @@ nav a:hover{
 #titre-filtre{
 	flex-direction: column;
 	text-align: left;
+	word-wrap: wrap;
+
 }
 
 
 .bloc-filtre{
-	width: auto;
+	
+	max-width: 90px;
+	margin-right: 20px;
 }
 
 .icone{
@@ -883,7 +887,7 @@ nav a:hover{
 }
 
 
-aside:nthchild(2){
+aside:nth-child(2){
 	order: 1;
 }
 
@@ -913,6 +917,30 @@ aside{
 .légende{
 	word-wrap: break-word;
 	font-size: 8px;
+}
+
+
+
+.activités-marseille{
+	display: block;
+	height: auto;
+	width: 100%;
+	margin-top: 15px;
+	margin-bottom: 0;
+}
+
+
+#bloc1, #bloc2{
+	height: auto;
+	width: 100%;
+}
+
+
+#petit-bloc1{
+	display: block;
+	height: auto;
+	width: 100%;
+
 }
 
 
