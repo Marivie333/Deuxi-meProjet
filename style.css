@@ -780,16 +780,33 @@ nav{
 }
 
 #menu{
-	flex-direction: row;
-	align-items: center;
-	width: 50%;
-	margin: 60px 5px;
+	display: inline-flex;
+	align-items: stretch;
+	width: 100%;
+	max-width: 480px;
+	margin-bottom: 30px;
+	position: relative;
+	top: 40px ;
+	left: -100px;
+	padding: 5px;
+}
+
+#menu a:hover{
+	border-top: none;
+	border-bottom: solid;
+
 }
 
 #inscription{
 	position: absolute;
 	top: 20px;
-	right: 10px;
+	right: -10px;
+}
+
+#inscription a:hover{
+	border-top: none;
+	color: #0065FC;
+	padding: 5px;
 }
 
 /*nav li{
