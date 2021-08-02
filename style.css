@@ -774,7 +774,6 @@ header{
 nav{
 	display: flex;
 	flex-direction: column-reverse;
-	/*align-items: right;*/
 	width: 100%;
 
 }
@@ -784,12 +783,13 @@ nav{
 	align-items: stretch;
 	width: 100%;
 	max-width: 480px;
-	margin-bottom: 30px;
+	margin-bottom: 40px;
 	position: relative;
 	top: 40px ;
 	left: -125px;
-	padding: 5px;
+	padding: 10px auto;
 }
+
 
 #menu a:hover{
 	border-top: none;
@@ -800,7 +800,7 @@ nav{
 #inscription{
 	position: absolute;
 	top: 20px;
-	right: -10px;
+	right: 20px;
 }
 
 #inscription a:hover{
@@ -834,32 +834,67 @@ nav a:hover{
 
 
 
-/*  --Section 1 Hébergements-recherche-- 
+/*  --Section 1 Hébergements-recherche-- */
+
+
+
+#hébergements-recherche{
+	
+	height: auto;
+
+}
+
 
 .title{
 	text-align: justify;
-	padding: 10px;
+	padding: 0.6rem;
+	margin-right: 0.6rem;
+	word-wrap: break-word;
 }
 
 .title2{
 	text-align: justify;
-	padding: 10px;
+	padding: 0.3rem;
 }
 
-#recherche{
-	width: 150px;
-	margin-bottom: 15px;
-	margin-left: 60px;
 
+
+#recherche-form{
+	width: 80%;
+	max-width: 30rem;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-bottom: 0.5rem;
+	margin-left: -50rem;
+
+}
+
+/*.bouton{
+	width: 50px;
+	border-radius: 20px;
+}*/
+
+.bouton-text{
+	visibility: hidden;
 }
 
 .bouton{
-	width: 50px;
-	border-radius: 20px;
+	visibility: visible;
+	background-color: #0065FC;
+	color: white;
+	width: 3.1rem;
+	border-radius: 1.25rem;
+	display: flex;
+	justify-content: center;
+	align-items: center;
 }
-
-.bouton i{
-	visibility: no hidden;
+ 
+.bouton-icone{
+	display: initial;
+	background-color: #0065FC;
+	color: white;
+	
 }
 
 
