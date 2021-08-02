@@ -848,7 +848,7 @@ nav a:hover{
 .title{
 	text-align: justify;
 	padding: 0.6rem;
-	margin-right: 0.6rem;
+	margin-right: 0.66rem;
 	word-wrap: break-word;
 }
 
@@ -932,7 +932,7 @@ nav a:hover{
 #information p{
 	width: 100%;
 	max-width: 480px;
-	margin-right: 5px;
+	margin-right: 0.66rem;
 
 }
 
