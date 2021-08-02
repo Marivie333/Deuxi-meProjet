@@ -925,11 +925,20 @@ nav a:hover{
 	flex-wrap: wrap;*/
 }
 
-.icone{
+.description{
+	max-width: 120px;
+}
 
+#information p{
+	width: 100%;
+	max-width: 480px;
+	margin-right: 5px;
 
 }
 
+#information{
+	display: flex;
+}
 
 
 
