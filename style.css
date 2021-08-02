@@ -765,10 +765,10 @@ header{
 	height: auto;
 }
 
-/*nav{
-	display: block;
-	/*text-align: center;
-}*/
+
+#logo{
+	margin-left: 10px;
+}
 
 
 nav{
@@ -787,7 +787,7 @@ nav{
 	margin-bottom: 30px;
 	position: relative;
 	top: 40px ;
-	left: -100px;
+	left: -125px;
 	padding: 5px;
 }
 
