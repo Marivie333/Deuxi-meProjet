@@ -899,7 +899,7 @@ nav a:hover{
 
 
 
-/* --Filtre--  
+/* --Filtre mobile-- */ 
 
 
 #filtres{
@@ -909,16 +909,15 @@ nav a:hover{
 }
 
 #titre-filtre{
-	flex-direction: column;
+	width: 100%;
+	display: flex;
+	flex-wrap: wrap;
 	text-align: left;
-	word-wrap: wrap;
-
 }
 
 
 .bloc-filtre{
-	
-	max-width: 90px;
+	max-width: 110px;
 	margin-right: 20px;
 }
 
