@@ -5,7 +5,9 @@ body{
 
 	font-family: Raleway, Arial, Verdana, Serif;
 	margin-left: 10px;
-
+	max-width: 1440px;
+	width: 100%;
+	margin: auto;
 }
 
 
@@ -121,7 +123,8 @@ nav a:hover{
 #hébergements-recherche{
 	
 	/*width: 80%;*/
-	width: auto;
+	/*width: auto;*/
+	width: 100%;
 	height: 30%;
 	margin: 2%;
 }
@@ -736,6 +739,10 @@ div{
 
 
 
+
+
+
+
 /* --Small screen version --*/
 
 
@@ -761,15 +768,31 @@ header{
 /*nav{
 	display: block;
 	/*text-align: center;
-}/*
+}*/
 
-*/nav ul{
-	display: block;
+
+nav{
+	display: flex;
+	flex-direction: column-reverse;
+	/*align-items: right;*/
+	width: 100%;
+
 }
-	/*flex-direction: column-reverse;
+
+#menu{
+	flex-direction: row;
+	align-items: center;
+	width: 50%;
+	margin: 60px 5px;
 }
-*/
-nav li{
+
+#inscription{
+	position: absolute;
+	top: 20px;
+	right: 10px;
+}
+
+/*nav li{
 	margin: 20px auto;
 	font-weight: 300;
 }
@@ -779,21 +802,23 @@ nav a:hover{
 	border-bottom: solid;
 	color: #0065FC;
 	padding: 10px;
-}
+}*/
 
 
-#inscription a:nth-child(3){
+/*#inscription nav{
 	order: 1;
+	width: 100%;
+	flex-wrap: wrap;
 	border-top: none;
 	border-bottom: none;
-	float: right;
+	/*float: right;
 	padding-right: 5px;
 
-}
+}*/
 
 
 
-/*  --Section 1 Hébergements-recherche-- */
+/*  --Section 1 Hébergements-recherche-- 
 
 .title{
 	text-align: justify;
@@ -823,7 +848,7 @@ nav a:hover{
 
 
 
-/* --Filtre--  */
+/* --Filtre--  
 
 
 #filtres{
@@ -929,19 +954,50 @@ aside{
 	margin-bottom: 0;
 }
 
-
+/*
 #bloc1, #bloc2{
-	height: auto;
+	height: 100px;
 	width: 100%;
-}
+
+}*/
 
 
 #petit-bloc1{
 	display: block;
-	height: auto;
+	height: 100px;
 	width: 100%;
+	margin: auto;
 
 }
+
+#petit-bloc2{
+	display: block;
+	height: 100px;
+	width: 100%;
+	margin: auto;
+
+}
+
+.bloc-activités{
+	height: 100px;
+	width: 100%;
+	margin: auto;
+}
+
+
+
+.activités-mini1{
+	height: 100px;
+	width: 100%;
+	margin: auto;
+}
+
+.activités-mini2{
+	height: 100px;
+	width: 100%;
+	margin: auto;
+}
+
 
 
 
