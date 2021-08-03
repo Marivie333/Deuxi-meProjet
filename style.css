@@ -951,9 +951,9 @@ nav a:hover{
 	justify-content: space-around;
 	align-items: center;
 	height: auto;
-	width: 95%;
+	width: 100%;
 	max-width: 480px;
-	margin: 0 20px;
+	margin: 0;
 }
 
 #hotels-marseille{
@@ -961,6 +961,7 @@ nav a:hover{
 	max-width: 480px;
 	flex-direction: column;
 	margin-bottom: 50px;
+	background-color: white;
 
 }
 
@@ -974,7 +975,7 @@ nav a:hover{
 	min-height: auto;
 	width: 90%;
 	max-width: 480px;
-	margin: 10px 15px;
+	margin: 10px 10px;
 
 }
 
@@ -986,8 +987,8 @@ nav a:hover{
 aside{
 	order: 1;
 	width: 100%;
-	max-width: 480px;
-	margin: 10px 0;
+	max-width: 380px;
+	margin: 0;
 }
 
 #titre-chart{
@@ -998,15 +999,17 @@ aside{
 #hotels-populaires{
 	display: block;
 	align-items: center;
-	margin: 5px 5px;
+	margin: 10px 5px;
 	width: 100%;
-	max-width: 480px;
+	max-width: 380px;
+	min-width: 369px;
 }
 
 .blocaside{
-	margin: 10px 5px;
-	width: 90%;
-	max-width: 480px;
+	margin: 10px 0;
+	width: 80%;
+	max-width: 380px;
+	min-width: 350px;
 	min-height: auto;
 }
 
