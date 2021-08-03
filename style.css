@@ -943,17 +943,17 @@ nav a:hover{
 
 
 
-/*  --Section 2 Hotels Marseille--  */
+/*  --Section 2 Hotels Marseille mobile--  */
 
 #hébergements{
 	display: flex;
-	flex-direction: column;
+	flex-direction: column-reverse;
 	justify-content: space-around;
 	align-items: center;
 	height: auto;
 	width: 95%;
 	max-width: 480px;
-	margin: 0 15px;
+	margin: 0 20px;
 }
 
 #hotels-marseille{
@@ -967,7 +967,7 @@ nav a:hover{
 .ligne{
 	height: auto;
 	flex-direction: column;
-	margin-bottom: 0;
+	margin: 10px 15px;
 }
 
 .blochotel{
@@ -978,35 +978,35 @@ nav a:hover{
 
 }
 
-.caption{
-	
-}
 
-
-aside:nth-child(2){
+/*aside:nth-child(2){
 	order: 1;
-}
+}*/
 
 aside{
+	order: 1;
 	width: 100%;
+	max-width: 480px;
 	margin: 10px 0;
 }
 
 #titre-chart{
-	display: none;
+	display: flex;
 	padding-left: -20px;
 }
 
 #hotels-populaires{
 	display: block;
 	align-items: center;
-	margin: 5px 0;
+	margin: 5px 5px;
 	width: 100%;
+	max-width: 480px;
 }
 
 .blocaside{
-	margin: 0;
-	width: 100%;
+	margin: 10px 5px;
+	width: 90%;
+	max-width: 480px;
 	min-height: auto;
 }
 
