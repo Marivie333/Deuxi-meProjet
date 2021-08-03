@@ -1032,19 +1032,20 @@ aside{
 }
 
 
-#bloc1, #bloc2{
-	width: 350px;
+/*#bloc1, #bloc2{
+	width: 90%;
 	max-width: 380px;
-	height: auto;
+	height: 200px;
+	margin: 10px 20px;
 
-}
+}*/
 
 
 .bloc-activités{
-	width: 350px;
-	max-width: 380px;
-	height: auto;
-	margin: auto;
+	width: 90%;
+	/*max-width: 380px;*/
+	height: 200px;
+	margin: 10px 0
 }
 
 
@@ -1055,11 +1056,11 @@ aside{
 
 }
 
-#petit-bloc1{
+/*#petit-bloc1{
 	width: 90%;
-	max-width: 380px;
-	height: 230px;
-	margin: auto;
+	max-width: 480px;
+	height: 200px;
+	margin-bottom: 10px;
 
 }
 
@@ -1069,7 +1070,7 @@ aside{
 	height: 230px;
 	margin: auto;
 
-}
+}*/
 
 
 
