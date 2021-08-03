@@ -573,6 +573,7 @@ aside{
 	align-items: center;
 	height: 400px;
 	width: 100%;
+	max-width: 1440px;
 	margin-top: 25px;
 	margin-bottom: 60px;
 }
@@ -1032,57 +1033,59 @@ aside{
 }
 
 
-/*#bloc1, #bloc2{
+#bloc1{
 	width: 90%;
-	max-width: 380px;
-	height: 200px;
-	margin: 10px 20px;
-
-}*/
-
+	height: 60px;
+	margin: 10px 10px;
+}
+#bloc2{
+	width: 90%;
+	height: 60px;
+	margin: 10px 10px;
+}
 
 .bloc-activités{
 	width: 90%;
-	/*max-width: 380px;*/
-	height: 200px;
-	margin: 10px 0
+	max-width: 380px;
+	height: 50px;
+	margin: 10px 10px;
 }
+*/
 
-
-
+/*
 .bloc-activités img{
 	width: 100% ;
-	/*height: ;*/
+	
+}*/
 
-}
-
-/*#petit-bloc1{
+#petit-bloc1{
 	width: 90%;
 	max-width: 480px;
-	height: 200px;
-	margin-bottom: 10px;
+	max-height: 200px;
+	margin-bottom: 0;
 
 }
 
 #petit-bloc2{
 	width: 90%;
 	max-width: 380px;
-	height: 230px;
-	margin: auto;
+	max-height: 200px;
+	margin: 0;
 
-}*/
-
+}
 
 
 .activités-mini1{
-	height: 100px;
-	width: 100%;
+	width: 90%;
+	max-width: 380px;
+	height: 90px;
 	margin: auto;
 }
 
 .activités-mini2{
-	height: 100px;
-	width: 100%;
+	width: 90%;
+	max-width: 380px;
+	height: 90px;
 	margin: auto;
 }
 
