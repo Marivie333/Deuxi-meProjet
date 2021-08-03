@@ -946,14 +946,19 @@ nav a:hover{
 /*  --Section 2 Hotels Marseille--  */
 
 #hébergements{
-	flex: block;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	align-items: center;
 	height: auto;
-	width: 100%;
-	margin-bottom: 0;
+	width: 95%;
+	max-width: 480px;
+	margin: 0 15px;
 }
 
 #hotels-marseille{
 	width: 100%;
+	max-width: 480px;
 	flex-direction: column;
 	margin-bottom: 50px;
 
@@ -967,7 +972,10 @@ nav a:hover{
 
 .blochotel{
 	min-height: auto;
-	width: 100%;
+	width: 90%;
+	max-width: 480px;
+	margin: 10px 15px;
+
 }
 
 .caption{
