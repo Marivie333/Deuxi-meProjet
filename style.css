@@ -1020,6 +1020,8 @@ aside{
 
 
 
+/*  --Activités Marseille mobile  ---*/
+
 .activités-marseille{
 	display: block;
 	height: auto;
@@ -1031,21 +1033,27 @@ aside{
 
 
 #bloc1, #bloc2{
-	width: 90%;
+	width: 350px;
 	max-width: 380px;
-	height: 230px;
+	height: auto;
 
 }
 
 
 .bloc-activités{
-	width: 90%;
+	width: 350px;
 	max-width: 380px;
-	height: 230px;
+	height: auto;
 	margin: auto;
 }
 
 
+
+.bloc-activités img{
+	width: 100% ;
+	/*height: ;*/
+
+}
 
 #petit-bloc1{
 	width: 90%;
@@ -1082,6 +1090,19 @@ aside{
 /*  --Footer mobile--   */
 
 
+footer{
+	display: block;
+	width: 100%;
+	min-width: 480px;
+	height: auto;
+	padding-bottom: 40px;
+
+}
+
+.liens{
+	white-space: no-wrap;
+	text-align: left;
+}
 
 
 
