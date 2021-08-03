@@ -1024,38 +1024,43 @@ aside{
 	display: block;
 	height: auto;
 	width: 100%;
-	margin-top: 15px;
-	margin-bottom: 0;
+	max-width: 380px;
+	margin: 0;
+	
 }
 
-/*
-#bloc1, #bloc2{
-	height: 100px;
-	width: 100%;
 
-}*/
+#bloc1, #bloc2{
+	width: 90%;
+	max-width: 380px;
+	height: 230px;
+
+}
+
+
+.bloc-activités{
+	width: 90%;
+	max-width: 380px;
+	height: 230px;
+	margin: auto;
+}
+
 
 
 #petit-bloc1{
-	display: block;
-	height: 100px;
-	width: 100%;
+	width: 90%;
+	max-width: 380px;
+	height: 230px;
 	margin: auto;
 
 }
 
 #petit-bloc2{
-	display: block;
-	height: 100px;
-	width: 100%;
+	width: 90%;
+	max-width: 380px;
+	height: 230px;
 	margin: auto;
 
-}
-
-.bloc-activités{
-	height: 100px;
-	width: 100%;
-	margin: auto;
 }
 
 
@@ -1071,6 +1076,12 @@ aside{
 	width: 100%;
 	margin: auto;
 }
+
+
+
+/*  --Footer mobile--   */
+
+
 
 
 
