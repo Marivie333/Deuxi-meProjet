@@ -376,6 +376,7 @@ border: none;
 	align-items: center;
 	height: 650px;
 	width: 100%;
+	min-width: 600px;
 	margin-top: 10px;
 	margin-bottom: 40px;
 	
@@ -391,6 +392,7 @@ border: none;
 #hotels-marseille{
 	align-content: space-around;
 	height: 650px;
+	min-width: 781px;
 	margin-right:  20px;
 	border-radius: 20px;
 	flex: 2;
@@ -499,6 +501,7 @@ border: none;
 
 aside{
 	height: 650px;
+	min-width: 400px;
 	border-radius: 20px;
 	flex: 1;
 	background-color: #F2F2F2;
