@@ -838,7 +838,7 @@ nav a:hover{
 
 
 
-/*  --Section 1 Hébergements-recherche-- */
+/*  --Section 1 Hébergements-recherche mobile-- */
 
 
 
@@ -1041,14 +1041,13 @@ aside{
 	width: 90%;
 	height: 60px;
 	/*margin: 10px 10px;*/
-}
-*/
+
 
 /*#bloc2{
 	width: 90%;
 	height: 60px;
 	/*margin: 10px 10px;*/
-}*/
+
 
 .bloc-activités{
 	width: 100%;
@@ -1067,7 +1066,7 @@ aside{
 #petit-bloc1{
 	display: block;
 	width: 90%;
-	max-width: 480px;
+	max-width: 380px;
 	margin-bottom: 20px;
 
 }
