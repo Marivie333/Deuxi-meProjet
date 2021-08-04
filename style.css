@@ -376,7 +376,6 @@ border: none;
 	align-items: center;
 	height: 650px;
 	width: 100%;
-	min-width: 600px;
 	margin-top: 10px;
 	margin-bottom: 40px;
 	
@@ -392,7 +391,6 @@ border: none;
 #hotels-marseille{
 	align-content: space-around;
 	height: 650px;
-	min-width: 781px;
 	margin-right:  20px;
 	border-radius: 20px;
 	flex: 2;
@@ -501,7 +499,6 @@ border: none;
 
 aside{
 	height: 650px;
-	min-width: 400px;
 	border-radius: 20px;
 	flex: 1;
 	background-color: #F2F2F2;
@@ -1039,24 +1036,26 @@ aside{
 }
 
 
-#bloc1{
+/*#bloc1{
 	width: 90%;
 	height: 60px;
-	margin: 10px 10px;
+	/*margin: 10px 10px;*/
 }
+*/
+
 #bloc2{
 	width: 90%;
 	height: 60px;
-	margin: 10px 10px;
+	/*margin: 10px 10px;*/
 }
 
 .bloc-activités{
-	width: 90%;
+	width: 100%;
 	max-width: 380px;
-	height: 50px;
-	margin: 10px 10px;
+	height: 60px;
+	/*margin: 10px 10px;*/
 }
-*/
+
 
 /*
 .bloc-activités img{
@@ -1065,34 +1064,33 @@ aside{
 }*/
 
 #petit-bloc1{
+	display: block;
 	width: 90%;
 	max-width: 480px;
-	max-height: 200px;
-	margin-bottom: 0;
+	margin-bottom: 10px;
 
 }
 
 #petit-bloc2{
+	display: block;
 	width: 90%;
 	max-width: 380px;
-	max-height: 200px;
-	margin: 0;
+	margin-bottom: 10px;
 
 }
 
 
 .activités-mini1{
-	width: 90%;
+	width: 100%;
 	max-width: 380px;
-	height: 90px;
-	margin: auto;
+	height: 200px;
 }
 
 .activités-mini2{
-	width: 90%;
+	width: 100%;
 	max-width: 380px;
-	height: 90px;
-	margin: auto;
+	height: 200px;
+	
 }
 
 
@@ -1113,6 +1111,31 @@ footer{
 	white-space: no-wrap;
 	text-align: left;
 }
+
+
+
+
+}
+
+
+/*
+@media only screen and (max-width: 768px){
+
+
+
+#hébergements{
+	min-width: 600px;
+}
+
+#hotels-marseille{
+	min-width: 781px;
+}
+
+aside{
+	min-width: 400px;
+}*/
+
+
 
 
 
