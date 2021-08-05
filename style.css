@@ -888,7 +888,8 @@ nav a:hover{
 }
 
 .bouton{
-	visibility: visible;
+
+	/*visibility: visible;*/
 	background-color: #0065FC;
 	color: white;
 	width: 3.1rem;
@@ -897,14 +898,37 @@ nav a:hover{
 	justify-content: center;
 	align-items: center;
 }
- 
-.bouton-icone{
-	display: initial;
+
+.bouton i:hover{
 	background-color: #0065FC;
-	color: white;
-	
+	color: black;
+	border-radius: 1.25rem;
 }
 
+.bouton i{
+	visibility: visible;
+	position: relative;
+	left: -60px;
+
+}
+
+
+/* 
+.bouton i{
+	/*display: initial*/;
+	visibility: visible;
+	/*background-color: #0065FC;
+	background-color: none;
+	color: white;
+	width: 90%;
+	height: 60px;
+	max-width: 380px;
+	margin-bottom: 10px;
+	position: relative;
+	bottom: -25px;
+	left:-40px;
+}
+*/
 
 
 /* --Filtre mobile-- */ 
@@ -981,16 +1005,21 @@ nav a:hover{
 
 .blochotel{
 	min-height: auto;
-	width: 90%;
+	/*width: 90%;*/
 	max-width: 480px;
 	margin: 10px 10px;
-
+	width: 342px;
+	height: 200px;
 }
 
+.blochotel img{
+	width: 100%;
+	height: 60%;
+}
 
-/*aside:nth-child(2){
-	order: 1;
-}*/
+caption p{
+	font-size: 8px;
+}
 
 aside{
 	order: 1;
