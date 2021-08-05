@@ -791,9 +791,13 @@ nav{
 	position: relative;
 	top: 40px ;
 	left: -125px;
-	padding: 10px auto;
+	padding: 10px 10px;
 }
 
+
+#menu a{
+	border-bottom: solid 0.25rem #F2F2F2;
+}
 
 #menu a:hover{
 	border-top: none;
