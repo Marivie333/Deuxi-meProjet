@@ -195,7 +195,7 @@ nav a:hover{
 
 .bouton{
 	background-color: #0065FC;
-	border-radius: 0 0.625 0.625 0;
+	border-radius: 0 0.625rem 0.625rem 0;
 	width: 7.8rem;
 	height: 3rem;
 	color: white;
