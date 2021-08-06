@@ -1207,6 +1207,8 @@ aside{
 	order: 1;
 	width: 100%;
 	max-width: 768px;
+	margin: 10px auto;
+	height: auto;
 	/*min-width: 396px;*/
 
 }
@@ -1214,17 +1216,18 @@ aside{
 
 #titre-chart{
 	display: flex;
-	padding-left: -20px;
+
+	/*padding-left: -50px;*/
+	text-align: left;
 }
 
 #hotels-populaires{
 	display: flex;
 	flex-direction: row;
-	align-items: space-around;
-	margin: 5px;
+	align-items: space-between;
+	margin: -20px;
 	width: 100%;
 	max-width: 768px;
-	min-width: 480px;
 }
 
 
