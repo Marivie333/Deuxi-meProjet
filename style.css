@@ -1208,6 +1208,8 @@ aside{
 
 .blocaside{
 	padding: 0.5%;
+	min-width: 231px;
+
 }
 
 .légende{
@@ -1235,7 +1237,7 @@ aside{
 #hotels-populaires{
 	display: flex;
 	flex-direction: row;
-	align-items: space-between;
+	align-items: space-around;
 	margin: -20px;
 	width: 100%;
 	max-width: 768px;
