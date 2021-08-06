@@ -878,18 +878,12 @@ nav a:hover{
 
 }
 
-/*.bouton{
-	width: 50px;
-	border-radius: 20px;
-}*/
 
-.bouton-text{
-	visibility: hidden;
-}
 
-.bouton{
 
-	/*visibility: visible;*/
+
+button{
+	/*display: none;*/
 	background-color: #0065FC;
 	color: white;
 	width: 3.1rem;
@@ -899,17 +893,25 @@ nav a:hover{
 	align-items: center;
 }
 
-.bouton i:hover{
-	background-color: #0065FC;
-	color: black;
+button i:hover{
+	background-color: #F2F2F2;
+	color: white;
 	border-radius: 1.25rem;
+
 }
 
-.bouton i{
+button i{
 	visibility: visible;
+	background-color: #0065FC;
+	color: white;
 	position: relative;
-	left: -60px;
+	left: -10px;
+	border-radius: 1.25rem;
 
+}
+
+.texte{
+	display: none;
 }
 
 
