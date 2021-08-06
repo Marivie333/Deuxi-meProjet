@@ -1181,14 +1181,64 @@ footer{
 
 
 
-/*@media all and (min-width: 480px) and (max-width: 768px){
+
+/*   --Version tablette--   */
+
+
+@media all and (min-width: 480px) and (max-width: 768px){
+
+#hébergements{
+	display: flex;
+	flex-direction: column;
+	height: auto;
+	width: 100%;
+	max-width: 768px;
+}
 
 #hotels-marseille{
-	min-width: 600px;
+	/*min-width: 1143px;*/
+	order: 2;
+	width: 100%;
+	max-width: 768px;
+	margin: auto;
 }
 
 aside{
-	min-width: 400px;
+	order: 1;
+	width: 100%;
+	max-width: 768px;
+	/*min-width: 396px;*/
+
+}
+
+
+#titre-chart{
+	display: flex;
+	padding-left: -20px;
+}
+
+#hotels-populaires{
+	display: flex;
+	flex-direction: row;
+	align-items: space-around;
+	margin: 5px;
+	width: 100%;
+	max-width: 768px;
+	min-width: 480px;
+}
+
+
+#activités-marseille{
+	min-width: 1223px;
+}
+
+
+
+
+/*  --footer tablette--   */
+
+footer{
+	min-width: 1200px;
 }
 
 
@@ -1196,13 +1246,10 @@ aside{
 }
 
 
-@media all and (min-width: 768px) and (max-width: 1240px){
 
 
 
 
-}
-*/
 
 
 /*
