@@ -1195,6 +1195,10 @@ footer{
 	max-width: 768px;
 }
 
+.grand-titre{
+	margin-bottom: -10px;
+}
+
 #hotels-marseille{
 	/*min-width: 1143px;*/
 	order: 2;
