@@ -1193,6 +1193,7 @@ footer{
 	height: auto;
 	width: 100%;
 	max-width: 768px;
+	margin-bottom: 80px;
 }
 
 .grand-titre{
@@ -1244,7 +1245,12 @@ aside{
 
 
 #activités-marseille{
-	min-width: 1223px;
+	display: flex;
+	flex-wrap: wrap;
+	width: 100%;
+	max-width: 768px;
+	height: auto;
+	/*min-width: 1223px;*/
 }
 
 
@@ -1253,9 +1259,18 @@ aside{
 /*  --footer tablette--   */
 
 footer{
-	min-width: 1200px;
+	display: flex;
+	width: 100%;
+	max-width: 768px;
+	height: auto;
+	padding-bottom: 50px;
+
 }
 
+.liens{
+	margin-right: 50px;
+
+}
 
 
 }
