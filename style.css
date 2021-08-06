@@ -1244,6 +1244,8 @@ aside{
 }
 
 
+/*  --Activités Marseille tablette >768px---  */
+
 #activités-marseille{
 	display: flex;
 	flex-wrap: wrap;
@@ -1254,6 +1256,27 @@ aside{
 }
 
 
+/*#bloc1, #bloc2{
+	width: 50%;
+	height: 400px;
+}
+
+#petit-bloc1, #petit-bloc2{
+	width: 50%;
+	height: 400px;
+}
+
+
+.bloc-activités{
+	width: 100%;
+	height: 400px;
+}
+
+.activités-mini1, .activités-mini2{
+	width: 100%;
+	height: 400px;
+}
+*/
 
 
 /*  --footer tablette--   */
