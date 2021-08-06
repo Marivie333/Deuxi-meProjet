@@ -79,6 +79,7 @@ nav{
 	display: flex;
 	justify-content: flex-end;
 	align-items: center;
+	min-width: 600px;
 	
 }
 
@@ -835,7 +836,8 @@ nav a:hover{
 
 
 #hébergements-recherche{
-
+	width: 100%;
+	max-width: 480px;
 	height: auto;
 
 }
@@ -925,7 +927,7 @@ nav a:hover{
 #filtres{
 	display: flex;
 	width: 100%;
-	max-width: 480px;
+	min-width: 480px;
 	height: auto;
 	flex-wrap: wrap;
 }
