@@ -1217,13 +1217,21 @@ aside{
 
 }
 
+#chart{
+	position: relative;
+	top: -5px;
+	right: -100px;
+	/*padding-right: -200px;*/
+}
+
 
 #titre-chart{
 	display: flex;
-
-	/*padding-left: -50px;*/
-	text-align: left;
+	margin-left: -175px;
+	margin-bottom: 10px;
 }
+
+
 
 #hotels-populaires{
 	display: flex;
