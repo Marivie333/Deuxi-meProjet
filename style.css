@@ -470,9 +470,6 @@ border: none;
 	font-size: 0.75rem;
 }
 
-/*.gris i{
-	color: #ABADAF;
-}*/
 
 .gris:nth-child(5), .gris:nth-child(4){
 	color: #ABADAF;
@@ -1217,6 +1214,8 @@ nav{
 
 
 
+/*   --Bloc hébergement Marseille Version  >768px --   */
+
 #hébergements{
 	display: flex;
 	flex-direction: column;
@@ -1236,6 +1235,18 @@ nav{
 	width: 100%;
 	max-width: 768px;
 	margin: auto;
+}
+
+.caption p{
+	margin-top: -10px;
+}
+
+.étoiles{
+	margin-top: -10px;
+}
+
+#afficher a{
+	margin-top: 40px;
 }
 
 aside{
