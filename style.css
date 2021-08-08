@@ -1154,6 +1154,7 @@ footer{
 	display: block;
 	width: 100%;
 	min-width: 480px;
+	max-width: 560px;
 	height: auto;
 	padding-bottom: 40px;
 
@@ -1172,10 +1173,32 @@ footer{
 
 
 
+
+
+
 /*   --Version  >768px---   */
 
 
 @media all and (min-width: 480px) and (max-width: 768px){
+
+
+#filtres{
+	
+	flex-direction: row;
+	justify-content: flex-start;
+	height: auto;
+	flex-wrap: wrap;
+}
+
+#titre-filtre{
+	width: 100%;
+	max-width: 768px;
+	flex-wrap: wrap;
+	text-align: left;
+	font-weight: bold;
+}
+
+
 
 #hébergements{
 	display: flex;
@@ -1286,6 +1309,7 @@ footer{
 	display: flex;
 	width: 100%;
 	max-width: 768px;
+	min-width: 480px;
 	height: auto;
 	padding-bottom: 50px;
 
