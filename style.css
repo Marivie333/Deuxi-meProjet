@@ -1182,6 +1182,23 @@ footer{
 @media all and (min-width: 480px) and (max-width: 768px){
 
 
+header{
+	justify-content: space-around;
+	width: 100%;
+	max-width: 768px;
+	height: auto;
+}
+
+#logo img{
+	margin-left: 15px;
+}
+
+nav{
+	margin-left: -60px;
+}
+
+/*  ---Bloc Recherche Section 1 >768px version ---  */
+
 #filtres{
 	
 	flex-direction: row;
