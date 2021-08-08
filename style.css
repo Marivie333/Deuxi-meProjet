@@ -1179,6 +1179,11 @@ footer{
 @media all and (min-width: 480px) and (max-width: 768px){
 
 
+body{
+	margin: 5px;
+	max-width: 768px;
+}
+
 header{
 	justify-content: space-around;
 	width: 100%;
@@ -1245,9 +1250,10 @@ nav{
 	margin-top: -10px;
 }
 
-#afficher a{
-	margin-top: 40px;
-}
+
+
+/*   --- Bloc aside Version  >768px  --   */
+
 
 aside{
 	order: 1;
@@ -1260,13 +1266,23 @@ aside{
 
 .blocaside{
 	padding: 0.5%;
-	min-width: 231px;
-
+	/*min-width: 231px;*/
 }
 
-.légende{
+.blocaside h2{
 	word-wrap: break-word;
-	margin-left: 5px;
+}
+
+/*.blocaside img:nth-child(2){
+	min-width: 50%;
+}*/
+
+
+.légende{
+	font-size: 10px;
+	padding-left: 10px;
+	padding-right: 25px;
+	text-align: left;
 }
 
 
@@ -1292,7 +1308,8 @@ aside{
 	align-items: space-around;
 	margin: -20px;
 	width: 100%;
-	max-width: 768px;
+	min-width: 768px;
+	/*max-width: 768px;*/
 }
 
 
