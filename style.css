@@ -873,15 +873,15 @@ nav a:hover{
 	border-radius: 20px;
 }*/
 
-.bouton-text{
+/*.bouton-text{
 	visibility: hidden;
-}
+}*/
 
 .bouton{
 	width: 3rem;
 	heignt: 3rem;
 	position: relative;
-
+	border-radius: 0.625rem;
 	/*visibility: visible;
 	background-color: #0065FC;
 	color: white;
@@ -894,6 +894,7 @@ nav a:hover{
 
 
 .bouton i:hover{
+
 	background-color: #77818B;
 	color: black;
 	border-radius: 1.15rem;
