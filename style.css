@@ -1464,6 +1464,7 @@ aside{
 	order: 1;
 	width: 100%;
 	max-width: 991px;
+
 	margin: 10px auto;
 	height: auto;
 	/*min-width: 396px;*/
@@ -1471,7 +1472,7 @@ aside{
 
 .blocaside{
 	padding: 0.5%;
-	max-width: 28%;
+	max-width: 27%;
 }
 
 .blocaside h2{
@@ -1497,6 +1498,7 @@ aside{
 
 #titre-chart{
 	display: flex;
+	justify-content: space-around;
 	margin-left: -220px;
 	margin-bottom: 10px;
 }
