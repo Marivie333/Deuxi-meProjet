@@ -1313,16 +1313,16 @@ aside{
 }
 
 
+
+
 /*  --Activités Marseille tablette >768px---  */
 
 #activités-marseille{
-	flex-direction: column;
-	justify-content: space-between;
+	/*flex-direction: row;*/
 	flex-wrap: wrap;
 	width: 100%;
-	max-width: 768px;
+	/*max-width: 768px;*/
 	height: auto;
-	/*min-width: 1223px;*/
 }
 
 
@@ -1345,8 +1345,9 @@ aside{
 
 #bloc1, #petit-bloc1{
 	width: 100%;
-	max-width: 768px;
-	height: 400px;
+	min-width: 50%;
+	/*max-width: 768px;*/
+	/*height: 400px;*/
 	margin-left: 5px;
 	margin-right: 20px;
 
@@ -1354,8 +1355,10 @@ aside{
 
 #bloc2, #petit-bloc2{
 	width: 100%;
-	max-width: 768px;
-	height: 400px;
+	min-width: 50%;
+	/*max-width: 768px;*/
+	/*height: 400px;*/
+	margin-right: 20px;
 }
 
 
