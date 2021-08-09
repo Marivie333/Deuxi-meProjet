@@ -1181,7 +1181,7 @@ footer{
 
 body{
 	margin: 5px;
-	max-width: 768px;
+	/*max-width: 768px;*/
 }
 
 header{
@@ -1192,7 +1192,7 @@ header{
 }
 
 #logo img{
-	margin-left: 15px;
+	margin-left: -20px;
 }
 
 nav{
@@ -1343,6 +1343,16 @@ aside{
 	width: 45%;
 }
 
+#bloc1, #petit-bloc1{
+	width: 100%;
+	max-width: 768px;
+
+}
+
+#bloc2, #petit-bloc2{
+	width: 100%;
+	max-width: 768px;
+}
 
 
 
