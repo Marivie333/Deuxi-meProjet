@@ -562,7 +562,7 @@ aside{
 	align-items: center;
 	height: 400px;
 	width: 100%;
-	max-width: 1440px;
+	/*max-width: 1440px;*/
 	margin-top: 25px;
 	margin-bottom: 60px;
 }
@@ -1318,34 +1318,21 @@ aside{
 /*  --Activités Marseille tablette >768px---  */
 
 #activités-marseille{
-	/*flex-direction: row;*/
+	display: flex;
+	flex-direction: row;
 	flex-wrap: wrap;
 	width: 100%;
-	/*max-width: 768px;*/
+	max-width: 768px;
 	height: auto;
 }
 
 
-/*.bloc-activités{
-	width: 100%;
-}
 
-
-.activités-mini1, .activités-mini2{
-	width: 100%;
-}
-
-#bloc1, #bloc2{
-	width: 45%;
-}
-
-#petit-bloc1, #petit-bloc2{
-	width: 45%;
-}*/
 
 #bloc1, #petit-bloc1{
+	
 	width: 100%;
-	min-width: 50%;
+	min-width: 40%;
 	/*max-width: 768px;*/
 	/*height: 400px;*/
 	margin-left: 5px;
@@ -1354,6 +1341,7 @@ aside{
 }
 
 #bloc2, #petit-bloc2{
+	
 	width: 100%;
 	min-width: 50%;
 	/*max-width: 768px;*/
@@ -1390,24 +1378,198 @@ footer{
 
 
 
+/*  -- Screen size between 768p and 991px --*/
 
 
-/*
-@media only screen and (max-width: 768px){
+
+@media all and (min-width: 768px) and (max-width: 991px){
+
+body{
+	margin: 5px;
+	
+}
+
+header{
+	justify-content: space-around;
+	width: 100%;
+	max-width: 991px;
+	height: auto;
+}
+
+#logo img{
+	margin-left: -90px;
+}
+
+nav{
+	margin-left: -60px;
+}
+
+/*  ---Bloc Recherche Section 1 >991px version ---  */
+
+#filtres{
+	
+	flex-direction: row;
+	justify-content: flex-start;
+	height: auto;
+	flex-wrap: wrap;
+}
+
+#titre-filtre{
+	width: 100%;
+	max-width: 991px;
+	flex-wrap: wrap;
+	text-align: left;
+	font-weight: bold;
+}
 
 
+
+/*   --Bloc hébergement Marseille Version  >991px --   */
 
 #hébergements{
-	min-width: 600px;
+	display: flex;
+	flex-direction: column;
+	height: auto;
+	width: 100%;
+	max-width: 991px;
+	margin-bottom: 80px;
+}
+
+.grand-titre{
+	margin-bottom: -10px;
 }
 
 #hotels-marseille{
-	min-width: 781px;
+	/*min-width: 1143px;*/
+	order: 2;
+	width: 100%;
+	max-width: 991px;
+	margin: auto;
 }
+
+.caption p{
+	margin-top: -10px;
+}
+
+.étoiles{
+	margin-top: -10px;
+}
+
+
+
+/*   --- Bloc aside Version  >991px  --   */
+
 
 aside{
-	min-width: 400px;
-}*/
+	order: 1;
+	width: 100%;
+	max-width: 991px;
+	margin: 10px auto;
+	height: auto;
+	/*min-width: 396px;*/
+}
+
+.blocaside{
+	padding: 0.5%;
+	max-width: 28%;
+}
+
+.blocaside h2{
+	word-wrap: break-word;
+}
+
+.légende{
+	font-size: 10px;
+	padding-left: 10px;
+	padding-right: 25px;
+	text-align: left;
+	word-wrap: break-word;
+}
+
+
+#chart{
+	position: relative;
+	top: -5px;
+	right: -200px;
+	/*padding-right: -200px;*/
+}
+
+
+#titre-chart{
+	display: flex;
+	margin-left: -220px;
+	margin-bottom: 10px;
+}
+
+
+
+#hotels-populaires{
+	display: flex;
+	flex-direction: row;
+	align-items: space-around;
+	margin: -20px;
+	width: 100%;
+	max-width: 991px;
+	/*max-width: 768px;*/
+}
+
+
+
+/*  --Activités Marseille tablette >991px---  */
+
+#activités-marseille{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	width: 100%;
+	max-width: 991px;
+	height: auto;
+}
+
+
+
+
+#bloc1, #petit-bloc1{
+	
+	width: 100%;
+	max-width: 40%;
+	/*max-width: 768px;*/
+	/*height: 400px;*/
+	margin-left: 5px;
+	margin-right: 20px;
+
+}
+
+#bloc2, #petit-bloc2{
+	
+	width: 100%;
+	min-width: 50%;
+	/*max-width: 768px;*/
+	/*height: 400px;*/
+	margin-right: 20px;
+}
+
+
+
+
+
+/*  --footer tablette >991px--   */
+
+footer{
+	display: flex;
+	width: 100%;
+	max-width: 991px;
+	min-width: 480px;
+	height: auto;
+	padding-bottom: 50px;
+
+}
+
+.liens{
+	margin-right: 50px;
+
+}
+
 
 
 
@@ -1415,3 +1577,10 @@ aside{
 
 
 }
+
+
+
+
+
+
+
