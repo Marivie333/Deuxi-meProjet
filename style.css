@@ -1185,14 +1185,14 @@ body{
 }
 
 header{
-	justify-content: space-around;
+	justify-content: center;
 	width: 100%;
 	max-width: 768px;
 	height: auto;
 }
 
 #logo img{
-	margin-left: -20px;
+	margin-left: 100px;
 }
 
 nav{
@@ -1464,7 +1464,7 @@ aside{
 	order: 1;
 	width: 100%;
 	max-width: 991px;
-
+	min-width: 900px;
 	margin: 10px auto;
 	height: auto;
 	/*min-width: 396px;*/
