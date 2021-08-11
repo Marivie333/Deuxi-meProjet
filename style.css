@@ -1141,23 +1141,23 @@ footer{
 
 
 body{
-	margin: 5px;
-	max-width: 768px;
+	margin: 0.3125rem;
+	max-width: 45.5rem;
 }
 
 header{
 	justify-content: space-between;
 	width: 100%;
-	max-width: 768px;
+	max-width: 45.5rem;
 	height: auto;
 }
 
 #logo img{
-	margin-left: -100px;
+	margin-left: 6.25rem;
 }
 
 nav{
-	margin-left: -60px;
+	margin-left: -3.75rem;
 }
 
 /*  ---Bloc Recherche Section 1 >768px version ---  */
@@ -1172,7 +1172,7 @@ nav{
 
 #titre-filtre{
 	width: 100%;
-	max-width: 768px;
+	max-width: 45.5rem;
 	flex-wrap: wrap;
 	text-align: left;
 	font-weight: bold;
@@ -1187,28 +1187,28 @@ nav{
 	flex-direction: column;
 	height: auto;
 	width: 100%;
-	max-width: 768px;
-	margin-bottom: 80px;
+	max-width: 45.5rem;
+	margin-bottom: 5rem;
 }
 
 .grand-titre{
-	margin-bottom: -10px;
+	margin-bottom: -0.625rem;
 }
 
 #hotels-marseille{
 	/*min-width: 1143px;*/
 	order: 2;
 	width: 100%;
-	max-width: 768px;
+	max-width: 45.5rem;
 	margin: auto;
 }
 
 .caption p{
-	margin-top: -10px;
+	margin-top: -0.625rem;
 }
 
 .étoiles{
-	margin-top: -10px;
+	margin-top: -0.625rem;
 }
 
 
@@ -1219,8 +1219,8 @@ nav{
 aside{
 	order: 1;
 	width: 100%;
-	max-width: 768px;
-	margin: 10px auto;
+	max-width: 45.5rem;
+	margin: 0.625rem auto;
 	height: auto;
 	/*min-width: 396px;*/
 }
@@ -1241,9 +1241,9 @@ aside{
 
 
 .légende{
-	font-size: 10px;
-	padding-left: 10px;
-	padding-right: 25px;
+	font-size: 0.625rem;
+	padding-left: 0.625rem;
+	padding-right: 1.5625rem;
 	text-align: left;
 }
 
@@ -1254,9 +1254,9 @@ aside{
 	display: flex;
 	justify-content: space-around;
 	width: 100%
-	max-width: 768px;
-	margin-left: -170px;
-	margin-bottom: 10px;
+	max-width: 45.5rem;
+	margin-left: -10.625rem;
+	margin-bottom: 0.625rem;
 }
 
 
@@ -1265,9 +1265,9 @@ aside{
 	display: flex;
 	flex-direction: row;
 	align-items: space-around;
-	margin: -20px;
+	margin: -1.25rem;
 	width: 100%;
-	min-width: 768px;
+	min-width: 45.5rem;
 	
 }
 
@@ -1281,8 +1281,8 @@ aside{
 	flex-direction: row;
 	flex-wrap: wrap;
 	width: 100%;
-	max-width: 768px;
-	min-width: 500px;
+	max-width: 45.5rem;
+	min-width: 31.25rem;
 	height: auto;
 	margin: auto;
 }
@@ -1294,8 +1294,8 @@ aside{
 	
 	width: 50%;
 	min-width: 50%;
-	margin-left: 5px;
-	margin-right: -210px;
+	margin-left: 0.3125rem;
+	margin-right: -13.125rem;
 	
 }
 
@@ -1304,7 +1304,7 @@ aside{
 	
 	width: 50%;
 	min-width: 50%;
-	margin-right: -210px;
+	margin-right: -13.125rem;
 }
 
 
@@ -1348,15 +1348,15 @@ aside{
 footer{
 	display: flex;
 	width: 100%;
-	max-width: 768px;
-	min-width: 480px;
+	max-width: 45.5rem;
+	min-width: 30rem;
 	height: auto;
-	padding-bottom: 50px;
+	padding-bottom: 3.125rem;
 
 }
 
 .liens{
-	margin-right: 50px;
+	margin-right: 3.125rem;
 
 }
 
