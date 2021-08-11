@@ -1181,18 +1181,18 @@ footer{
 
 body{
 	margin: 5px;
-	/*max-width: 768px;*/
+	max-width: 768px;
 }
 
 header{
-	justify-content: center;
+	justify-content: space-between;
 	width: 100%;
 	max-width: 768px;
 	height: auto;
 }
 
 #logo img{
-	margin-left: 100px;
+	margin-left: -100px;
 }
 
 nav{
@@ -1266,6 +1266,7 @@ aside{
 
 .blocaside{
 	padding: 0.5%;
+	max-width: 28%;
 	/*min-width: 231px;*/
 }
 
@@ -1286,17 +1287,18 @@ aside{
 }
 
 
-#chart{
+/*#chart{
 	position: relative;
 	top: -5px;
 	right: -100px;
-	/*padding-right: -200px;*/
-}
+	/*padding-right: -200px;
+}*/
 
 
 #titre-chart{
 	display: flex;
-	margin-left: -175px;
+	justify-content: space-around;
+	margin-left: -170px;
 	margin-bottom: 10px;
 }
 
