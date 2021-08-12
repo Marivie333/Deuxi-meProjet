@@ -1136,7 +1136,7 @@ footer{
 /*   --Version  >768px---   */
 
 
-@media screen and (max-width: 768px){
+@media screen all and (min-width: 480px) and (max-width: 768px){
 
 
 body{
@@ -1371,7 +1371,7 @@ footer{
 
 
 
-@media screen and (max-width: 991px){
+@media screen all and (min-width: 768px) and (max-width: 991px){
 
 body{
 	margin: 0.3125rem;
