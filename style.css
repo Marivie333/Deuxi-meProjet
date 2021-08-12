@@ -4,7 +4,6 @@
 body{
 
 	font-family: Raleway, Arial, Verdana, Serif;
-	/*margin-left: 10px;*/
 	max-width: 1440px;
 	width: 100%;
 	margin: auto;
@@ -365,7 +364,7 @@ border: none;
 	align-items: center;
 	height: 40.625rem;
 	width: 100%;
-	min-width: 77.937rem;
+	/*min-width: 77.937rem;*/
 	margin-top: 0.625rem;
 	margin-bottom: 2.5rem;
 	
@@ -558,7 +557,7 @@ aside{
 	align-items: center;
 	height: 25rem;
 	width: 100%;
-	min-width: 77.937rem;
+	/*min-width: 77.937rem;*/
 	margin-top: 1.562rem;
 	margin-bottom: 3.75rem;
 }
@@ -691,7 +690,7 @@ footer{
 	display: flex;
 	background-color: #F2F2F2;
 	width: 100%;
-	min-width: 77.937rem;
+	/*min-width: 77.937rem*/;
 	height: 11.25rem;
 	padding-top: 0.937rem;
 	padding-bottom: 0.937rem;
@@ -1137,7 +1136,7 @@ footer{
 /*   --Version  >768px---   */
 
 
-@media all and (min-width: 480px) and (max-width: 768px){
+@media screen and (max-width: 768px){
 
 
 body{
@@ -1372,7 +1371,7 @@ footer{
 
 
 
-@media all and (min-width: 768px) and (max-width: 991px){
+@media screen and (max-width: 991px){
 
 body{
 	margin: 0.3125rem;
