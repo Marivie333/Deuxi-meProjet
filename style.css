@@ -4,7 +4,7 @@
 body{
 
 	font-family: Raleway, Arial, Verdana, Serif;
-	max-width: 1440px;
+	max-width: 90rem;
 	width: 100%;
 	margin: auto;
 }
@@ -46,14 +46,14 @@ header{
 	justify-content: space-between;
 	width: 100%;
 	height: 6rem;
-	max-width: 1440px;
+	max-width: 90rem;
 }
 
 
 
 #logo img{
-	width: 120px;
-	height: 50px;
+	width: 7.5rem;
+	height: 3.125rem;
 }
 
 nav{
@@ -1085,7 +1085,8 @@ footer{
 
 
 body{
-	margin: 0.3125rem;
+	/*margin: 0.3125rem;*/
+	margin: 0;
 	max-width: 45.5rem;
 }
 
@@ -1097,7 +1098,7 @@ header{
 }
 
 #logo img{
-	margin-left: 6.25rem;
+	margin-left: 5.325rem;
 }
 
 nav{
@@ -1172,7 +1173,7 @@ aside{
 
 .blocaside{
 	padding: 0.5%;
-	max-width: 28%;
+	max-width: 32%;
 	/*min-width: 231px;*/
 }
 
@@ -1180,10 +1181,9 @@ aside{
 	word-wrap: break-word;
 }
 
-
 .légende{
 	font-size: 0.625rem;
-	padding-left: 0.625rem;
+	padding-left: 0.6rem;
 	padding-right: 1.5625rem;
 	text-align: left;
 }
@@ -1290,7 +1290,7 @@ footer{
 	display: flex;
 	width: 100%;
 	max-width: 45.5rem;
-	min-width: 30rem;
+	/*min-width: 30rem;*/
 	height: auto;
 	padding-bottom: 3.125rem;
 
