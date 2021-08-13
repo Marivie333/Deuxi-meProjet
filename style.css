@@ -220,7 +220,6 @@ nav a:hover{
 	height: 3.125rem;
 	width: 3.125rem;
 	padding: 1rem;
-	/*padding: 0.9375rem;*/
 	box-sizing: border-box;
 	background-color: #DEEBFF;
 	color: #0065FC;
@@ -616,11 +615,11 @@ footer{
 	display: flex;
 	background-color: #F2F2F2;
 	width: 100%;
-	/*min-width: 77.937rem;*/
+	max-width: 1440px;
 	height: 11.25rem;
 	padding-top: 0.937rem;
 	padding-bottom: 0.937rem;
-	margin: 2.5rem 0px 0px 0px;
+	margin: 0;
 }
 
 footer a{
@@ -646,6 +645,7 @@ footer a:hover{
 
 div{
 	margin-top: 0.625rem;
+	white-space: nowrap;
 }
 
 
@@ -1064,15 +1064,16 @@ body{
 }
 
 header{
-	/*justify-content: space-between;*/
 	width: 100%;
-	max-width: 45.5rem;
 	height: auto;
 }
 
 #logo img{
-	margin-left: 1.6rem;
-	/*margin-left: 5.325rem;*/
+	margin-left: 1.6rem;	
+}
+
+#menu{
+	display: inline-block;
 }
 
 nav{
