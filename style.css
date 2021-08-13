@@ -807,7 +807,7 @@ nav{
 
 #titre-filtre{
 	width: 100%;
-	max-width: 380px;
+	max-width: 30rem;
 	flex-wrap: wrap;
 	text-align: left;
 	font-weight: bold;
@@ -899,14 +899,16 @@ aside{
 	align-items: center;
 	margin: 0.625rem 0.3125rem;
 	width: 100%;
-	max-width: 23.75rem;
-	min-width: 23.0625rem;
+	max-width: 30rem;
+	/*max-width: 23.75rem;
+	min-width: 23.0625rem;*/
 }
 
 .blocaside{
 	margin: 0.625rem -0.25rem;
-	width: 80%;
-	max-width: 23.75rem;
+	width: 90%;
+	max-width: 30rem;
+	/*max-width: 23.75rem;*/
 	min-width: 21.875rem;
 	
 }
@@ -925,7 +927,8 @@ aside{
 	display: block;
 	height: auto;
 	width: 100%;
-	max-width: 23.75rem;
+	max-width: 30rem;
+	/*max-width: 23.75rem;*/
 	margin: 0;
 	align-items: center;
 	
@@ -935,14 +938,16 @@ aside{
 #bloc1{
 	width: 90%;
 	height: 3.75rem;
-	max-width: 23.75rem;
+	max-width: 30rem;
+	/*max-width: 23.75rem;*/
 	margin-bottom: 10rem;
 }
 
 #bloc2{
 	width: 90%;
 	height: 3.75rem;
-	max-width: 23.75rem;
+	max-width: 30rem;
+	/*max-width: 23.75rem;*/
 	margin-bottom: 10rem;
 	margin-top: 2.5rem;
 }
@@ -951,7 +956,8 @@ aside{
 
 .bloc-activités{
 	width: 100%;
-	max-width: 23.75rem;
+	max-width: 30rem;
+	/*max-width: 23.75rem;*/
 	height: 12.5rem;
 	margin: 0.625rem 1.25rem;
 
@@ -968,14 +974,16 @@ aside{
 #petit-bloc1{
 	display: block;
 	width: 90%;
-	max-width: 23.75rem;
+	max-width: 30rem;
+	/*max-width: 23.75rem;*/
 	margin-bottom: 1.25rem;
 }
 
 #petit-bloc2{
 	display: block;
 	width: 90%;
-	max-width: 23.75rem;
+	max-width: 30rem;
+	/*max-width: 23.75rem;*/
 	margin-bottom: 0.625rem;
 
 }
@@ -983,14 +991,16 @@ aside{
 
 .activités-mini1{
 	width: 100%;
-	max-width: 23.75rem;
+	/*max-width: 23.75rem;*/
+	max-width: 30rem;
 	height: 12.5rem;
 	margin: 1.25rem 1.25rem;
 }
 
 .activités-mini2{
 	width: 100%;
-	max-width: 23.75rem;
+	/*max-width: 23.75rem;*/
+	max-width: 30rem;
 	height: 12.5rem;
 	margin: 1.25rem 1.25rem;
 	
@@ -1016,16 +1026,15 @@ aside{
 footer{
 	display: block;
 	width: 100%;
-	min-width: 30rem;
-	max-width: 35rem;
+	max-width: 30rem;
 	height: auto;
 	padding-bottom: 2.5rem;
 
 }
 
 .liens{
-	white-space: no-wrap;
 	text-align: left;
+	white-space: nowrap;
 }
 
 
@@ -1361,12 +1370,13 @@ aside{
 	/*min-width: 61.937rem;*/
 	margin: 0.625rem auto;
 	height: auto;
-	/*min-width: 396px;*/
 }
+
 
 .blocaside{
 	padding: 0.5%;
-	max-width: 27%;
+	/*max-width: 27%;*/
+	min-width: 27%;
 }
 
 .blocaside h2{
@@ -1505,7 +1515,14 @@ footer{
 
 
 
+/*@media all and (min-width: 991px) and (max-width: 1229px){
 
+#hébergements{
+	min-width: 1229px;
+}
+
+
+}*/
 
 
 
