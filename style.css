@@ -102,13 +102,11 @@ nav a:hover{
 
 
 #hébergements-recherche{
-	
-	/*width: 80%;*/
-	/*width: auto;*/
 	width: 100%;
 	height: 30%;
 	margin: 2%;
 }
+
 
 .title{
 	color: black;
@@ -183,42 +181,6 @@ nav a:hover{
 
 
 
-/*#icone-map{
-	position: relative;
-	top: 17px;
-	left: 17px;
-}
-
-
-
-#champs input{
-width: 210px;
-height: 50px;
-text-align: left;
-padding-left: 10px;
-font-size: 18px;
-color: black;
-border: none;
-}
-
-#bouton{
-	width: 150px;
-	height: 50px;
-	box-sizing: border-box;
-	border-radius: 0 10px 10px 0;
-	background-color: #0065FC;
-	color: white;
-	font-size: 16px;
-	font-weight: bold;
-	text-align: center;
-	padding-top: 15px;
-	cursor: pointer;
-}
-
-#bouton:hover{
-	background-color: #77818B;
-	transform: scale(1.05);	
-}*/
 
 
 
@@ -254,19 +216,18 @@ border: none;
 }
 
 .icone{
-	/*display: flex;
-	justify-content: center;
-	align-items: center;*/
+	
 	height: 3.125rem;
 	width: 3.125rem;
-	padding: 0.9375rem;
+	padding: 1rem;
+	/*padding: 0.9375rem;*/
 	box-sizing: border-box;
 	background-color: #DEEBFF;
 	color: #0065FC;
 	border-radius: 2.188rem;
 	cursor: pointer;
 	text-align: center;
-	/*padding-top: 15px;*/
+	
 }
 
 
@@ -288,7 +249,6 @@ border: none;
 
 .bloc-filtre:hover >.description{
 	color: #0065FC;
-	/*ckground-color: #DEEBFF;*/
 }
 
 .bloc-filtre:hover >.icone{
@@ -298,7 +258,7 @@ border: none;
 
 
 
-/* --Information dans Section 1--*/
+/* --Information dans Section 1--  */
 
 #information{
 	display: flex;
@@ -330,6 +290,7 @@ border: none;
 	align-items: center;
 	height: 40.625rem;
 	width: 100%;
+	max-width: 90rem;
 	/*min-width: 77.937rem;*/
 	margin-top: 0.625rem;
 	margin-bottom: 2.5rem;
@@ -1284,7 +1245,7 @@ aside{
 
 
 
-/*  --footer tablette--   */
+/*  --footer version >768px--   */
 
 footer{
 	display: flex;
@@ -1334,6 +1295,7 @@ header{
 nav{
 	margin-left: -3.75rem;
 }
+
 
 /*  ---Bloc Recherche Section 1 >991px version ---  */
 
@@ -1396,7 +1358,7 @@ aside{
 	order: 1;
 	width: 100%;
 	max-width: 61.937rem;
-	min-width: 61.937rem;
+	/*min-width: 61.937rem;*/
 	margin: 0.625rem auto;
 	height: auto;
 	/*min-width: 396px;*/
@@ -1431,7 +1393,7 @@ aside{
 #titre-chart{
 	display: flex;
 	justify-content: space-around;
-	margin-left: -13.75rem;
+	margin-left: -15rem;
 	margin-bottom: 0.625rem;
 }
 
