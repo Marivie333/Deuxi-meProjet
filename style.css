@@ -1409,6 +1409,7 @@ aside{
 	display: flex;
 	justify-content: space-around;
 	width: 100%;
+	min-width: 991px;
 	margin-left: -12rem;
 	margin-bottom: 0.625rem;
 }
