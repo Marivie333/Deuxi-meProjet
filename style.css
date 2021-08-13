@@ -1144,7 +1144,7 @@ aside{
 
 .blocaside{
 	padding: 0.5%;
-	width: 32%;
+	width: 30%;
 	/*min-width: 231px;*/
 }
 
@@ -1377,7 +1377,7 @@ aside{
 .blocaside{
 	padding: 0.5%;
 	/*max-width: 27%;*/
-	min-width: 27%;
+	max-width: 27%;
 }
 
 .blocaside h2{
