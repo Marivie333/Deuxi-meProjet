@@ -1371,7 +1371,7 @@ nav{
 aside{
 	order: 1;
 	width: 100%;
-	max-width: 61.937rem;
+	/*max-width: 61.937rem;*/
 	/*min-width: 61.937rem;*/
 	margin: 0.625rem auto;
 	height: auto;
@@ -1401,14 +1401,15 @@ aside{
 	position: relative;
 	top: -0.3125rem;
 	right: -12.5rem;
-	/*padding-right: -200px;*/
+	
 }
 
 
 #titre-chart{
 	display: flex;
 	justify-content: space-around;
-	margin-left: -15rem;
+	width: 100%;
+	margin-left: -12rem;
 	margin-bottom: 0.625rem;
 }
 
