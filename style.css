@@ -695,7 +695,6 @@ nav{
 	display: inline-flex;
 	align-items: stretch;
 	width: 100%;
-	/*max-width: 30rem;*/
 	margin-bottom: 2.5rem;
 	position: relative;
 	top: 2.5rem ;
@@ -856,6 +855,7 @@ nav{
 }
 
 .ligne{
+	width: 100%;
 	height: auto;
 	flex-direction: column;
 	margin: 0.625rem 0.9375rem;
@@ -1031,6 +1031,7 @@ footer{
 body{
 	margin: 0.3125rem;
 	margin: 0;
+	width: 100%;
 	max-width: 45.5rem;
 }
 
