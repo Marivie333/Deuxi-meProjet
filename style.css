@@ -664,6 +664,7 @@ div{
 
 body{
 	width: 100%;
+	max-width: 30rem;
 	height: auto;
 	margin: 0.3125rem auto;
 	
@@ -694,7 +695,7 @@ nav{
 	display: inline-flex;
 	align-items: stretch;
 	width: 100%;
-	max-width: 30rem;
+	/*max-width: 30rem;*/
 	margin-bottom: 2.5rem;
 	position: relative;
 	top: 2.5rem ;
