@@ -1263,7 +1263,6 @@ footer{
 body{
 	margin: 0.3125rem;
 	width: 100%;
-	max-width: 991px;
 	
 }
 
@@ -1375,8 +1374,8 @@ aside{
 	display: flex;
 	justify-content: space-around;
 	width: 100%;
-	min-width: 991px;
-	margin-left: -12rem;
+	/*min-width: 991px;*/
+	margin-left: -10rem;
 	margin-bottom: 0.625rem;
 }
 
