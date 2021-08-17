@@ -484,7 +484,7 @@ aside{
 	align-items: center;
 	height: 25rem;
 	width: 100%;
-	/*min-width: 77.937rem;*/
+	max-width: 1440px;
 	margin-top: 1.562rem;
 	margin-bottom: 3.75rem;
 }
