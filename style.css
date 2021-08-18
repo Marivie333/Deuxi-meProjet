@@ -506,7 +506,7 @@ aside{
 
 .activités-marseille{
 	display: flex;
-	justify-content: space-between;
+	justify-content: space-around;
 	align-items: center;
 	height: 25rem;
 	width: 100%;
@@ -516,7 +516,8 @@ aside{
 
 #bloc1{
 	height: 25rem;
-	width: 18.75rem;
+	width: 16rem;
+	/*width: 18.75rem;*/
 }
 
 #bloc1:hover{
@@ -528,7 +529,7 @@ aside{
 
 #bloc2{
 	height: 25rem;
-	width: 18.75rem;
+	width: 16rem;
 }
 
 #bloc2:hover{
@@ -541,7 +542,7 @@ aside{
 	flex-direction: column;
 	justify-content: space-between;
 	height: 25rem;
-	width: 18.75rem;
+	width: 16rem;
 
 }
 
@@ -550,13 +551,13 @@ aside{
 	flex-direction: column;
 	justify-content: space-between;
 	height: 25rem;
-	width: 18.75rem;
+	width: 16rem;
 }
 
 
 .bloc-activités{
 	height: 25rem;
-	width: 18.75rem;
+	width: 16rem;
 	border-radius: 1.25rem;
 	background-color: white;
 	box-shadow: 0.125rem 0.125rem 0.375rem grey;
@@ -568,8 +569,8 @@ aside{
 
 
 .bloc-activités img{
-	height: 21.875rem;
-	width: 18.75rem;
+	height: 21rem;
+	width: 16rem;
 	border-radius: 1.25rem 1.25rem 0 0;
 	object-fit: cover;
 }
@@ -578,7 +579,7 @@ aside{
 
 .activités-mini1{
 	height: 12.5rem;
-	width: 18.75rem;
+	width: 16rem;
 	border-radius: 1.25rem;
 	background-color: white;
 	box-shadow: 0.125rem 0.125rem 0.375rem grey;
@@ -588,7 +589,7 @@ aside{
 
 .activités-mini1 img{
 	height: 75%;
-	width: 18.75rem;
+	width: 16rem;
 	width: 100%;
 	border-radius: 1.25rem 1.25rem 0 0;
 	object-fit: cover;
@@ -608,7 +609,7 @@ aside{
 
 .activités-mini2{
 	height: 9.687rem;
-	width: 18.75rem;
+	width: 16rem;
 	border-radius: 1.25rem;
 	background-color: white;
 	box-shadow: 0.125rem 0.125rem 0.375rem grey;
@@ -616,7 +617,7 @@ aside{
 
 .activités-mini2 img{
 	height: 70%;
-	width: 18.75rem;
+	width: 16rem;
 	border-radius: 1.25rem 1.25rem 0 0;
 	object-fit: cover;	
 }
