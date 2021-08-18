@@ -588,7 +588,7 @@ aside{
 
 
 .activités-mini1 img{
-	height: 75%;
+	height: 70%;
 	width: 16rem;
 	width: 100%;
 	border-radius: 1.25rem 1.25rem 0 0;
@@ -597,7 +597,6 @@ aside{
 }
 
 .activités-mini1 h2{
-	margin-top: 0.625rem;
 	margin-left: 0.75rem;	
 }
 
@@ -616,14 +615,14 @@ aside{
 }	
 
 .activités-mini2 img{
-	height: 70%;
+	height: 60%;
 	width: 16rem;
 	border-radius: 1.25rem 1.25rem 0 0;
 	object-fit: cover;	
 }
 
 .activités-mini2 h2{
-	margin-top: 0.625rem;
+	/*margin-top: 0.625rem;*/
 	margin-left: 0.937rem;
 }
 
