@@ -441,7 +441,8 @@ aside{
 	justify-content: space-around;
 	align-items: center;
 	font-size: 1.125rem;
-	margin-left: -3.125rem;
+	margin-left: -2.5rem;
+	max-width: 100%;
 }
 
 #chart{
