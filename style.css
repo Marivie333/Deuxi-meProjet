@@ -292,7 +292,7 @@ nav a:hover{
 	justify-content: flex-start;
 	align-items: center;
 	width: 100%;
-	maw-width: 90rem;
+	max-width: 90rem;
 }
 
 #information i{
@@ -731,7 +731,7 @@ nav{
 	margin-bottom: 2.5rem;
 	position: relative;
 	top: 2.5rem ;
-	left: -14rem;
+	left: -5rem;
 	padding: 0.625rem;
 }
 
@@ -750,7 +750,7 @@ nav{
 	position: absolute;
 	top: 1.25rem;
 	right: 1.25rem;
-	max-width: 50%;
+	max-width: 30%;
 }
 
 #inscription a:hover{
@@ -932,7 +932,7 @@ aside{
 #hotels-populaires{
 	display: block;
 	align-items: center;
-	margin: 0;
+	margin: 0.5rem 0;
 	width: 100%;
 }
 
@@ -940,9 +940,8 @@ aside{
 .blocaside{
 	margin-left: 2rem;
 	width: 75%;
-	/*min-width: 21.875rem;*/
-	
 }
+
 
 .légende{
 	word-wrap: break-word;
@@ -1132,7 +1131,7 @@ nav{
 #hotels-marseille{
 	order: 2;
 	width: 100%;
-	margin: auto;
+	margin: 0;
 }
 
 .caption p{
@@ -1151,7 +1150,7 @@ nav{
 aside{
 	order: 1;
 	width: 100%;
-	margin: 0.625rem auto;
+	margin: 0.625rem 0;
 	height: auto;
 }
 
@@ -1168,7 +1167,6 @@ aside{
 
 .légende{
 	font-size: 0.625rem;
-	/*padding-top: -20rem;*/
 	padding-left: 0.6rem;
 	padding-right: 1.5625rem;
 
@@ -1181,7 +1179,7 @@ aside{
 	display: flex;
 	justify-content: space-around;
 	width: 100%;
-	min-width: 768px;
+	/*min-width: 768px;*/
 	margin-left: -8.5rem;
 	margin-bottom: 0.625rem;
 }
@@ -1191,8 +1189,9 @@ aside{
 #hotels-populaires{
 	display: flex;
 	flex-direction: row;
-	margin: -1.25rem;
+	margin: -1.50rem;
 	width: 100%;
+	max-width: 768px;
 	/*min-width: 45.5rem;*/
 	
 }
