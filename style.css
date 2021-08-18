@@ -665,14 +665,14 @@ div{
 /* --Version mobile --*/
 
 
-@media only screen and (max-width: 480px){
+@media only screen and (max-width: 375px){
 
 
 body{
 	width: 100%;
 	/*max-width: 30rem;*/
 	height: auto;
-	margin: 0.3125rem auto;
+	margin: 0.3125rem 0;
 	
 }
 
@@ -701,10 +701,11 @@ nav{
 	display: inline-flex;
 	align-items: stretch;
 	width: 100%;
+	max-width: 375px;
 	margin-bottom: 2.5rem;
 	position: relative;
 	top: 2.5rem ;
-	left: -10.3125rem;
+	left: -14rem;
 	padding: 0.625rem;
 }
 
