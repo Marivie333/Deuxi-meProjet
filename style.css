@@ -724,6 +724,7 @@ nav{
 	position: absolute;
 	top: 1.25rem;
 	right: 1.25rem;
+	max-width: 50%;
 }
 
 #inscription a:hover{
@@ -742,19 +743,19 @@ nav{
 #hébergements-recherche{
 	width: 100%;
 	height: auto;
+	margin: 0;
 
 }
 
 
 .title{
-	text-align: justify;
-	padding: 0.6rem;
-	margin-right: 0.66rem;
+	text-align: left;
+	padding: 0.5rem;
 	word-wrap: break-word;
 }
 
 .title2{
-	text-align: justify;
+	text-align: left;
 	padding: 0.3rem;
 }
 
@@ -766,8 +767,11 @@ nav{
 	justify-content: center;
 	align-items: center;
 	margin-bottom: 0.5rem;
-	margin-left: -50rem;
 
+}
+
+form{
+	max-width: 375px;
 }
 
 
