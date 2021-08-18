@@ -1093,6 +1093,11 @@ nav{
 
 }
 
+main{
+	width: 100%;
+	max-width: 768px;
+}
+
 
 /*  ---Bloc Recherche Section 1 >768px version ---  */
 
@@ -1179,8 +1184,8 @@ aside{
 	display: flex;
 	justify-content: space-around;
 	width: 100%;
-	/*min-width: 768px;*/
-	margin-left: -8.5rem;
+	max-width: 768px;
+	margin-left: -6rem;
 	margin-bottom: 0.625rem;
 }
 
@@ -1204,6 +1209,7 @@ aside{
 	display: flex;
 	justify-content: space-around;
 	width: 100%;
+	max-width: 768px;
 	height: auto;
 }
 
@@ -1214,7 +1220,7 @@ aside{
 	
 	width: 45%;
 	/*min-width: 50%;*/
-	margin-left: -2rem;
+	margin-left: -5rem;
 	margin-right: -16rem;
 	
 }
@@ -1223,7 +1229,7 @@ aside{
 #bloc2, #petit-bloc2{
 	
 	width: 45%;
-	margin-left: -2rem;
+	margin-left: -5rem;
 	margin-right: -16rem;
 }
 
@@ -1235,16 +1241,22 @@ aside{
 
 .bloc-activités img{
 	width: 100%;
-	height: 80%;
+	height: 70%;
 }
 
-.bloc-activités h2{
+.bloc-activités h3{
 	word-wrap: break-word;
+	font-size: 0.9rem;
 }
 
 
 .activités-mini1{
 	width: 45%;
+}
+
+
+.activités-mini1 h3{
+	font-size: 0.9rem;
 }
 
 
@@ -1258,9 +1270,13 @@ aside{
 	width: 45%;
 }
 
+.activités-mini2 h3{
+	font-size: 0.9rem;
+}
+
 .activités-mini2 img{
 	width: 100%;
-	height: 60%;
+	height: 50%;
 }
 
 
@@ -1271,7 +1287,8 @@ aside{
 /*  --footer version >768px--   */
 
 footer{
-	display: flex;
+	display: block;
+	text-align: left;
 	width: 100%;
 	height: auto;
 	padding-bottom: 3.125rem;
