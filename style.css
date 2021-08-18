@@ -813,6 +813,7 @@ form{
 #filtres{
 	flex-direction: row;
 	justify-content: flex-start;
+	width: 100%;
 	height: auto;
 	flex-wrap: wrap;
 }
@@ -834,7 +835,7 @@ form{
 
 #information p{
 	width: 100%;
-	margin-right: 0.66rem;
+	margin: 0;
 
 }
 
@@ -869,13 +870,13 @@ form{
 	width: 100%;
 	height: auto;
 	flex-direction: column;
-	margin: 0.625rem 0.9375rem;
+	margin: 0.5rem 0.8rem;
 }
 
 .blochotel{
 	min-height: auto;
-	margin: 0.625rem 0.625rem;
-	width: 21.375rem;
+	margin: 0.5rem 0.5rem;
+	width: 20rem;
 	height: 12.5rem;
 }
 
@@ -892,26 +893,28 @@ caption p{
 aside{
 	order: 1;
 	width: 100%;
+	max-width: 375px;
 	margin: 0;
 }
 
 #titre-chart{
 	display: flex;
+	width: 100%;
 }
 
 
 #hotels-populaires{
 	display: block;
 	align-items: center;
-	margin: 0.625rem 0.3125rem;
+	margin: 0;
 	width: 100%;
 }
 
 
 .blocaside{
-	margin: 0.625rem -0.25rem;
-	width: 80%;
-	min-width: 21.875rem;
+	margin-left: 2rem;
+	width: 75%;
+	/*min-width: 21.875rem;*/
 	
 }
 
