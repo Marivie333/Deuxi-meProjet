@@ -10,6 +10,12 @@ body{
 }
 
 
+main{
+	width: 100%;
+	max-width: 90rem;
+}
+
+
 @font-face{
 	font-family: 'raleway';
 	src:  url('.fonts/Raleway-Regular.ttf');
@@ -622,7 +628,6 @@ aside{
 }
 
 .activités-mini2 h2{
-	/*margin-top: 0.625rem;*/
 	margin-left: 0.937rem;
 }
 
@@ -665,7 +670,6 @@ footer a:hover{
 }
 
 .liens{
-	/*margin-right: 12.5rem;*/
 	margin-right: 10%;
 	margin-top: 2.5rem;
 	margin-left: 3.125rem;
@@ -696,6 +700,7 @@ body{
 	margin: 0.3125rem auto;
 	
 }
+
 
 
 /* --Header mobile--  */
