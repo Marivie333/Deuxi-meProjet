@@ -6,7 +6,7 @@ body{
 	font-family: Raleway, Arial, Verdana, Serif;
 	max-width: 90rem;
 	width: 100%;
-	margin: auto;
+	margin: 0;
 }
 
 
@@ -60,7 +60,7 @@ font-size: medium;
 /* --Header-- */
 
 header{
-	display:  flex;
+	display: flex;
 	justify-content: space-between;
 	width: 100%;
 	height: 6rem;
@@ -70,15 +70,17 @@ header{
 
 
 #logo img{
-	width: 7.5rem;
+	width: 6rem;
 	height: 3.125rem;
+	margin-left: 1.5rem;
 }
 
 nav{
 	display: flex;
 	justify-content: flex-end;
 	align-items: center;
-	min-width: 37.5rem;
+	width: 70%;
+	/*min-width: 37.5rem;*/
 	
 }
 
