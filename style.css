@@ -1015,6 +1015,7 @@ aside{
 footer{
 	display: block;
 	width: 100%;
+	max-width: 375px;
 	height: auto;
 	padding-bottom: 2.5rem;
 
@@ -1023,6 +1024,7 @@ footer{
 .liens{
 	text-align: left;
 	white-space: nowrap;
+	margin-right: 0;
 }
 
 
@@ -1039,14 +1041,13 @@ footer{
 /*   --Version  >768px---   */
 
 
-@media all and (min-width: 480px) and (max-width: 768px){
+@media all and (min-width: 375px) and (max-width: 768px){
 
 
 body{
-	margin: 0.3125rem;
 	margin: 0;
 	width: 100%;
-	max-width: 45.5rem;
+	max-width: 48rem;
 }
 
 header{
