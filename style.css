@@ -690,14 +690,14 @@ div{
 /* --Version mobile --*/
 
 
-@media only screen and (max-width: 480px){
+@media only screen and (max-width: 375px){
 
 
 body{
 	width: 100%;
 	/*max-width: 30rem;*/
 	height: auto;
-	margin: 0.3125rem auto;
+	margin: 0.3125rem 0;
 	
 }
 
@@ -727,10 +727,11 @@ nav{
 	display: inline-flex;
 	align-items: stretch;
 	width: 100%;
+	max-width: 375px;
 	margin-bottom: 2.5rem;
 	position: relative;
 	top: 2.5rem ;
-	left: -10.3125rem;
+	left: -14rem;
 	padding: 0.625rem;
 }
 
@@ -749,6 +750,7 @@ nav{
 	position: absolute;
 	top: 1.25rem;
 	right: 1.25rem;
+	max-width: 50%;
 }
 
 #inscription a:hover{
@@ -767,19 +769,19 @@ nav{
 #hébergements-recherche{
 	width: 100%;
 	height: auto;
+	margin: 0;
 
 }
 
 
 .title{
-	text-align: justify;
-	padding: 0.6rem;
-	margin-right: 0.66rem;
+	text-align: left;
+	padding: 0.5rem;
 	word-wrap: break-word;
 }
 
 .title2{
-	text-align: justify;
+	text-align: left;
 	padding: 0.3rem;
 }
 
@@ -791,8 +793,11 @@ nav{
 	justify-content: center;
 	align-items: center;
 	margin-bottom: 0.5rem;
-	margin-left: -50rem;
 
+}
+
+form{
+	max-width: 375px;
 }
 
 
@@ -834,6 +839,7 @@ nav{
 #filtres{
 	flex-direction: row;
 	justify-content: flex-start;
+	width: 100%;
 	height: auto;
 	flex-wrap: wrap;
 }
@@ -855,7 +861,7 @@ nav{
 
 #information p{
 	width: 100%;
-	margin-right: 0.66rem;
+	margin: 0;
 
 }
 
@@ -890,13 +896,13 @@ nav{
 	width: 100%;
 	height: auto;
 	flex-direction: column;
-	margin: 0.625rem 0.9375rem;
+	margin: 0.5rem 0.8rem;
 }
 
 .blochotel{
 	min-height: auto;
-	margin: 0.625rem 0.625rem;
-	width: 21.375rem;
+	margin: 0.5rem 0.5rem;
+	width: 20rem;
 	height: 12.5rem;
 }
 
@@ -913,26 +919,28 @@ caption p{
 aside{
 	order: 1;
 	width: 100%;
+	max-width: 375px;
 	margin: 0;
 }
 
 #titre-chart{
 	display: flex;
+	width: 100%;
 }
 
 
 #hotels-populaires{
 	display: block;
 	align-items: center;
-	margin: 0.625rem 0.3125rem;
+	margin: 0;
 	width: 100%;
 }
 
 
 .blocaside{
-	margin: 0.625rem -0.25rem;
-	width: 80%;
-	min-width: 21.875rem;
+	margin-left: 2rem;
+	width: 75%;
+	/*min-width: 21.875rem;*/
 	
 }
 
@@ -1033,6 +1041,7 @@ aside{
 footer{
 	display: block;
 	width: 100%;
+	max-width: 375px;
 	height: auto;
 	padding-bottom: 2.5rem;
 
@@ -1041,6 +1050,7 @@ footer{
 .liens{
 	text-align: left;
 	white-space: nowrap;
+	margin-right: 0;
 }
 
 
@@ -1057,14 +1067,13 @@ footer{
 /*   --Version  >768px---   */
 
 
-@media all and (min-width: 480px) and (max-width: 768px){
+@media all and (min-width: 375px) and (max-width: 768px){
 
 
 body{
-	margin: 0.3125rem;
 	margin: 0;
 	width: 100%;
-	max-width: 45.5rem;
+	max-width: 48rem;
 }
 
 header{
