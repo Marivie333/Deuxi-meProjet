@@ -215,6 +215,7 @@ nav a:hover{
 	display: flex;
 	align-items: center;
 	width: 100%;
+	max-width: 90rem;
 	height: 3.125rem;
 	margin-top: 1.25rem;
 	margin-bottom: 1.25rem;
@@ -284,6 +285,8 @@ nav a:hover{
 	display: flex;
 	justify-content: flex-start;
 	align-items: center;
+	width: 100%;
+	maw-width: 90rem;
 }
 
 #information i{
@@ -311,7 +314,6 @@ nav a:hover{
 	height: 40.625rem;
 	width: 100%;
 	max-width: 90rem;
-	/*min-width: 77.937rem;*/
 	margin-top: 0.625rem;
 	margin-bottom: 2.5rem;
 	
@@ -356,6 +358,7 @@ nav a:hover{
 	position: relative;
 	left: 1.5625rem;
 	bottom: -1.5625rem;
+	width: 100%;
 
 }
 
