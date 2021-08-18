@@ -457,6 +457,7 @@ aside{
 	margin-bottom: 1.25rem;
 	padding-bottom: 2.5rem;
 	padding-left: 0.5rem;
+	max-width: 100%;
 }
 
 .blocaside{
@@ -509,9 +510,8 @@ aside{
 	align-items: center;
 	height: 25rem;
 	width: 100%;
-	max-width: 1440px;
-	margin-top: 1.562rem;
-	margin-bottom: 3.75rem;
+	max-width: 90rem;
+	margin: 1.562rem 0 3.75rem 0;
 }
 
 #bloc1{
@@ -589,6 +589,7 @@ aside{
 .activités-mini1 img{
 	height: 75%;
 	width: 18.75rem;
+	width: 100%;
 	border-radius: 1.25rem 1.25rem 0 0;
 	object-fit: cover;
 
@@ -640,7 +641,7 @@ footer{
 	display: flex;
 	background-color: #F2F2F2;
 	width: 100%;
-	max-width: 1440px;
+	max-width: 90rem;
 	height: 11.25rem;
 	padding-top: 0.937rem;
 	padding-bottom: 0.937rem;
@@ -664,7 +665,8 @@ footer a:hover{
 }
 
 .liens{
-	margin-right: 12.5rem;
+	/*margin-right: 12.5rem;*/
+	margin-right: 10%;
 	margin-top: 2.5rem;
 	margin-left: 3.125rem;
 }
