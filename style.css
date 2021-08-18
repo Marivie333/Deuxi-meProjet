@@ -41,8 +41,20 @@ font-size: medium;
 }
 
 
+.bloc-activités h3{
+	font-size: medium;
+	margin-left: 1.5rem;
+}
 
+.activités-mini2 h3{
+	font-size: medium;
+	margin-left: 1.5rem;
+}
 
+.activités-mini1 h3{
+	font-size: medium;
+	margin-left: 1.5rem;
+}
 
 
 /* --Header-- */
