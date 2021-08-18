@@ -123,8 +123,9 @@ nav a:hover{
 
 #hébergements-recherche{
 	width: 100%;
+	max-width: 90rem;
 	height: 30%;
-	margin: 2%;
+	margin: 1%;
 }
 
 
