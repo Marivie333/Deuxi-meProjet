@@ -524,7 +524,7 @@ aside{
 #bloc1{
 	height: 25rem;
 	width: 16rem;
-	/*width: 18.75rem;*/
+	max-width: 16rem;
 }
 
 #bloc1:hover{
@@ -537,6 +537,7 @@ aside{
 #bloc2{
 	height: 25rem;
 	width: 16rem;
+	max-width: 16rem;
 }
 
 #bloc2:hover{
@@ -550,6 +551,7 @@ aside{
 	justify-content: space-between;
 	height: 25rem;
 	width: 16rem;
+	max-width: 16rem;
 
 }
 
@@ -559,6 +561,7 @@ aside{
 	justify-content: space-between;
 	height: 25rem;
 	width: 16rem;
+	max-width: 16rem;
 }
 
 
@@ -597,7 +600,7 @@ aside{
 .activités-mini1 img{
 	height: 70%;
 	width: 16rem;
-	width: 100%;
+	/*width: 100%;*/
 	border-radius: 1.25rem 1.25rem 0 0;
 	object-fit: cover;
 
