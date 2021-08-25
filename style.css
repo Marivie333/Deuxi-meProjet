@@ -669,6 +669,7 @@ footer{
 	padding-top: 0.937rem;
 	padding-bottom: 0.937rem;
 	margin: 0;
+	box-sizing: border-box;
 }
 
 footer a{
@@ -731,20 +732,24 @@ header{
 
 
 #logo{
-	margin-left: 0.625rem;
+	margin-left: -1rem;
 }
 
 
 nav{
 	display: flex;
 	flex-direction: column-reverse;
-	/*width: 100%;
-*/
+	width: 100%;
+	max-width: 375px;
+	padding-top: 1.5rem;
+	margin-left: 80rem;
+	box-sizing: border-box;
+
 }
 
 #menu{
 	display: inline-flex;
-	align-items: stretch;
+	align-items: center;
 	width: 100%;
 	max-width: 375px;
 	margin-bottom: 2.5rem;
@@ -768,8 +773,8 @@ nav{
 #inscription{
 	position: absolute;
 	top: 1.25rem;
-	right: 1.25rem;
-	max-width: 30%;
+	right: 4rem;
+	/*max-width: 30%;*/
 }
 
 #inscription a:hover{
@@ -787,19 +792,22 @@ nav{
 
 #hébergements-recherche{
 	width: 100%;
+	max-width: 375px;
 	height: auto;
-	margin: 0;
+	margin: 2rem 0;
 
 }
 
 
 .title{
+	font-size: 1rem;
 	text-align: left;
 	padding: 0.5rem;
 	word-wrap: break-word;
 }
 
 .title2{
+	font-size: 0.8rem;
 	text-align: left;
 	padding: 0.3rem;
 }
@@ -860,6 +868,7 @@ form{
 	flex-direction: row;
 	justify-content: flex-start;
 	width: 100%;
+	max-width: 375px;
 	height: auto;
 	flex-wrap: wrap;
 }
@@ -898,13 +907,14 @@ form{
 	display: flex;
 	flex-direction: column-reverse;
 	justify-content: space-around;
-	/*align-items: center;*/
 	height: auto;
 	width: 100%;
+	box-sizing: border-box;
 }
 
 
 #hotels-marseille{
+	order: 2;
 	width: 100%;
 	flex-direction: column;
 	margin-bottom: 3.125rem;
@@ -921,7 +931,7 @@ form{
 }
 
 .blochotel{
-	min-height: auto;
+	height: auto;
 	margin: 0.5rem 0.5rem;
 	width: 20rem;
 	height: 12.5rem;
@@ -941,7 +951,7 @@ caption p{
 aside{
 	order: 1;
 	width: 100%;
-	/*max-width: 375px;*/
+	max-width: 375px;
 	margin: 0;
 }
 
@@ -957,6 +967,7 @@ aside{
 	align-items: center;
 	margin: 0.5rem 0;
 	width: 100%;
+	max-width: 375px;
 	height: auto;
 }
 
@@ -1174,10 +1185,12 @@ main{
 
 .caption p{
 	margin-top: -0.625rem;
+	font-size: 0.625rem;
 }
 
 .étoiles{
 	margin-top: -0.625rem;
+	font-size: 0.625rem;
 }
 
 
@@ -1196,6 +1209,11 @@ aside{
 .blocaside{
 	padding: 0.5%;
 	width: 30%;
+	height: auto;
+}
+
+.blocaside img{
+	height: auto;
 }
 
 
@@ -1214,12 +1232,10 @@ aside{
 
 
 #titre-chart{
-	display: flex;
-	justify-content: space-around;
-	width: 100%;
-	max-width: 768px;
-	margin-left: -6rem;
+	justify-content: space-between;
+	margin-left: -1rem;
 	margin-bottom: 0.625rem;
+
 }
 
 
@@ -1319,18 +1335,18 @@ aside{
 /*  --footer version >768px--   */
 
 footer{
-	display: block;
-	text-align: left;
-	width: 100%;
+	display: flex;
+	justify-content: space-around;
 	height: auto;
 	padding-bottom: 3.125rem;
 	margin: 0;
+	font-size: 0.65rem;
 
 }
 
 .liens{
-	margin-right: 1rem;
-	margin-left: 1.25rem;
+	margin-right: 0.5rem;
+	margin-left: 0.4rem;
 
 }
 
