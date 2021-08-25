@@ -993,7 +993,7 @@ aside{
 	height: auto;
 	width: 100%;
 	max-width: 375px;
-	align-items: center;
+	margin-left: 2.5rem;
 	
 }
 
