@@ -709,7 +709,7 @@ div{
 /* --Version mobile --*/
 
 
-@media only screen and (max-width: 375px){
+@media all and (max-width: 375px){
 
 
 body{
@@ -725,7 +725,7 @@ body{
 /* --Header mobile--  */
 
 header{
-	width: 100%;
+	/*width: 100%;*/
 	/*max-width: 375px;*/
 	height: auto;
 	flex-direction: column;
@@ -793,8 +793,8 @@ nav{
 
 
 #hébergements-recherche{
-	width: 100%;
-	max-width: 375px;
+	/*width: 100%;
+	max-width: 375px;*/
 	height: auto;
 	margin: 2rem 0;
 
@@ -907,17 +907,17 @@ form{
 
 #hébergements{
 	display: flex;
-	flex-direction: column-reverse;
+	/*flex-direction: column-reverse;*/
 	justify-content: space-around;
 	height: auto;
-	width: 100%;
+	/*width: 100%;*/
 	box-sizing: border-box;
 }
 
 
 #hotels-marseille{
 	order: 2;
-	width: 100%;
+	/*width: 100%;*/
 	flex-direction: column;
 	margin-bottom: 3.125rem;
 	margin-right: 0;
@@ -952,8 +952,8 @@ caption p{
 
 aside{
 	order: 1;
-	width: 100%;
-	max-width: 375px;
+	/*width: 100%;
+	max-width: 375px;*/
 	margin: 0;
 }
 
@@ -966,7 +966,6 @@ aside{
 
 #hotels-populaires{
 	display: block;
-	/*align-items: center;*/
 	margin: 0.5rem 0;
 	/*width: 100%;
 	max-width: 375px;*/
@@ -1076,8 +1075,8 @@ aside{
 
 footer{
 	display: block;
-	width: 100%;
-	max-width: 375px;
+	/*width: 100%;
+	max-width: 375px;*/
 	height: auto;
 	padding-bottom: 2.5rem;
 
@@ -1365,7 +1364,7 @@ footer{
 
 
 
-@media all and (min-width: 768px) and (max-width: 991px){
+/*@media all and (min-width: 768px) and (max-width: 991px){
 
 body{
 	margin: 0.3125rem;
@@ -1390,7 +1389,7 @@ nav{
 
 /*  ---Bloc Recherche Section 1 >991px version ---  */
 
-#filtres{
+/*#filtres{
 	flex-direction: row;
 	justify-content: flex-start;
 	width: 100%;
@@ -1407,10 +1406,10 @@ nav{
 }
 
 
-
+*/
 /*   --Bloc hébergement Marseille Version  >991px --   */
 
-#hébergements{
+/*#hébergements{
 	display: flex;
 	flex-direction: column;
 	height: auto;
@@ -1436,13 +1435,13 @@ nav{
 	margin-top: -0.625rem;
 }
 
-
+*/
 
 
 /*   --- Bloc aside Version  >991px  --   */
 
 
-aside{
+/*aside{
 	order: 1;
 	width: 100%;
 	margin: 0.625rem auto;
@@ -1481,7 +1480,6 @@ aside{
 	display: flex;
 	justify-content: space-around;
 	width: 100%;
-	/*min-width: 991px;*/
 	margin-left: -8rem;
 	margin-bottom: 0.625rem;
 }
@@ -1494,7 +1492,7 @@ aside{
 	margin: -1.25rem;
 	width: 100%;
 
-}
+}*/
 
 
 
