@@ -726,42 +726,44 @@ body{
 
 header{
 	width: 100%;
-	max-width: 375px;
+	/*max-width: 375px;*/
 	height: auto;
+	flex-direction: column;
 }
 
 
 #logo{
-	margin-left: -1rem;
+	margin-left: 0.5rem;
 }
 
 
 nav{
 	display: flex;
-	flex-direction: column-reverse;
-	width: 100%;
-	max-width: 375px;
-	padding-top: 1.5rem;
-	margin-left: 80rem;
+	/*flex-direction: column;*/
+	justify-content: space-between;
+	/*width: 100%;
+	max-width: 375px;*/
+	/*padding-top: 0.15rem;*/
+	/*margin-left: 80rem;*/
 	box-sizing: border-box;
-
 }
 
+
 #menu{
-	display: inline-flex;
-	align-items: center;
-	width: 100%;
-	max-width: 375px;
-	margin-bottom: 2.5rem;
+	display: flex;
+	/*align-items: center;*/
+	/*margin-bottom: 1.5rem;*/
 	position: relative;
-	top: 2.5rem ;
-	left: -5rem;
-	padding: 0.625rem;
+	/*top: 2.5rem ;*/
+	/*left: -5rem;*/
+	/*padding: 0.2rem;*/
 }
 
 
 #menu a{
 	border-bottom: solid 0.25rem #F2F2F2;
+	width: 50%;
+	text-align: center;
 }
 
 #menu a:hover{
@@ -773,7 +775,7 @@ nav{
 #inscription{
 	position: absolute;
 	top: 1.25rem;
-	right: 4rem;
+	right: -0.5rem;
 	/*max-width: 30%;*/
 }
 
@@ -1259,32 +1261,32 @@ aside{
 	justify-content: space-around;
 	width: 100%;
 	max-width: 768px;
-	height: auto;
+	height: 400px;
+	box-sizing: border-box;
 }
 
 
 
 
 #bloc1, #petit-bloc1{
-	
-	width: 45%;
-	margin-left: -5rem;
-	margin-right: -14rem;
-	
+	background-color: dimgray;
+	max-width: 128px;
+	margin-left: -14rem;
+	margin-right: -12rem;
 }
 
 
 #bloc2, #petit-bloc2{
 	
-	width: 45%;
-	margin-left: -5rem;
-	margin-right: -14rem;
+	max-width: 128px;
+	margin-left: -14rem;
+	margin-right: -12rem;
 }
 
 
 
 .bloc-activités{
-	width: 45%;
+	max-width: 45%;
 }
 
 .bloc-activités img{
@@ -1295,11 +1297,12 @@ aside{
 .bloc-activités h3{
 	word-wrap: break-word;
 	font-size: 0.9rem;
+	padding-top: 1.5rem;
 }
 
 
 .activités-mini1{
-	width: 45%;
+	max-width: 45%;
 }
 
 
@@ -1315,7 +1318,7 @@ aside{
 
 
 .activités-mini2{
-	width: 45%;
+	max-width: 45%;
 }
 
 .activités-mini2 h3{
@@ -1555,11 +1558,9 @@ aside{
 
 /*  --footer tablette >991px--   */
 
-footer{
+/*footer{
 	display: flex;
 	width: 100%;
-	/*max-width: 61.937rem;
-	min-width: 30rem;*/
 	height: auto;
 	padding-bottom: 3.125rem;
 
@@ -1568,7 +1569,7 @@ footer{
 .liens{
 	margin-right: 3.125rem;
 
-}
+}*/
 
 
 }
