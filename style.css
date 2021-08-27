@@ -1142,8 +1142,9 @@ header{
 }
 
 #menu a:hover{
-	border-top: none;
+	/*border-top: none;*/
 	border-bottom: solid;
+	color: #0065FC;
 
 }
 
