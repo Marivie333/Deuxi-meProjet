@@ -1135,7 +1135,6 @@ header{
 }
 
 #menu a{
-	/*border-top: none;*/
 	border-bottom: solid 0.25rem #F2F2F2;
 	width: 50%;
 	text-align: center;
@@ -1465,13 +1464,14 @@ footer{
 
 footer{
 	width: 100%;
-	max-width: 1140px;
+	padding-bottom: 15%;
+	/*max-width: 1140px;*/
 }
 
 .liens{
-	margin-right: 70px;
+	margin-right: 10%;
 	margin-top: 40px;
-	margin-left: 20px;
+	margin-left: 30px;
 }
 
 }
