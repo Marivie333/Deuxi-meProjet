@@ -1110,7 +1110,7 @@ footer{
 /*   --Version  >768px---   */
 
 
-@media all and (min-width: 375px) and (max-width: 768px){
+@media all and (min-width: 376px) and (max-width: 768px){
 
 
 body{
@@ -1270,6 +1270,7 @@ aside{
 	max-width: 768px;
 	min-height: auto;
 	box-sizing: border-box;
+	margin-left: 0.5rem;
 }
 
 
@@ -1321,8 +1322,9 @@ aside{
 
 .activités-mini1 h3{
 	font-size: 0.8rem;
-	padding-top: -0.8rem;
-	margin-left: 0.5rem;
+	margin-top: -0.2rem;
+	margin-left: 0.2rem;
+	word-wrap: break-word;
 }
 
 
