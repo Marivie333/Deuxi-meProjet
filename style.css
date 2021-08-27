@@ -521,7 +521,7 @@ aside{
 	display: flex;
 	justify-content: space-around;
 	align-items: center;
-	min-height: 25rem;
+	height: 25rem;
 	width: 100%;
 	max-width: 90rem;
 	margin: 1.562rem 0 3.75rem 0;
@@ -530,8 +530,9 @@ aside{
 
 #bloc1{
 	height: 25rem;
-	max-width: 16rem;
-	min-width: 8rem;
+	width: 20%;
+	/*max-width: 16rem;
+	min-width: 8rem;*/
 }
 
 #bloc1:hover{
@@ -543,8 +544,9 @@ aside{
 
 #bloc2{
 	height: 25rem;
-	max-width: 16rem;
-	min-width: 8rem;
+	width: 20%;
+	/*max-width: 16rem;
+	min-width: 8rem;*/
 }
 
 
@@ -558,8 +560,9 @@ aside{
 	flex-direction: column;
 	justify-content: space-between;
 	height: 25rem;
-	max-width: 16rem;
-	min-width: 8rem;
+	width: 20%;
+	/*max-width: 16rem;
+	min-width: 8rem;*/
 
 }
 
@@ -568,8 +571,9 @@ aside{
 	flex-direction: column;
 	justify-content: space-between;
 	height: 25rem;
-	max-width: 16rem;
-	min-width: 8rem;
+	width: 20%;
+	/*max-width: 16rem;
+	min-width: 8rem;*/
 }
 
 
