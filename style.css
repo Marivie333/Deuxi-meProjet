@@ -1126,22 +1126,37 @@ header{
 
 #logo img{
 	width: 80px;
-	margin-left: 1.6rem;	
+	margin-left: 0.5rem;	
 }
 
 #menu{
-	display: inline-block;
+	display: flex;
+	position: relative;
+}
+
+#menu a{
+	width: 50%;
+	text-align: center;
 }
 
 nav{
-	margin-left: -3.75rem;
+	display: flex;
+	justify-content: space-between;
+	margin-top: 3rem;
+	margin-right: 4rem;
+	margin-left: -3rem;
+	text-align: center;
+
 
 }
 
-main{
-	width: 100%;
-	max-width: 768px;
+#inscription{
+	position: absolute;
+	top: 1rem;
+	right: -1.5rem;
+
 }
+
 
 
 /*  ---Bloc Recherche Section 1 >768px version ---  */
