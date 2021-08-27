@@ -713,7 +713,7 @@ div{
 /* --Version mobile --*/
 
 
-@media all and (max-width: 375px){
+@media screen and (max-width: 375px){
 
 
 body{
@@ -911,10 +911,9 @@ form{
 
 #hébergements{
 	display: flex;
-	/*flex-direction: column-reverse;*/
+	flex-direction: column;
 	justify-content: space-around;
 	height: auto;
-	/*width: 100%;*/
 	box-sizing: border-box;
 }
 
@@ -922,24 +921,24 @@ form{
 #hotels-marseille{
 	order: 2;
 	/*width: 100%;*/
-	flex-direction: column;
+	/*flex-direction: column;*/
 	margin-bottom: 3.125rem;
-	margin-right: 0;
 	background-color: white;
 
 }
 
+
 .ligne{
+	display: block;
 	width: 100%;
 	height: auto;
-	flex-direction: column;
-	margin: 0.5rem 0.8rem;
+	margin: 0.8rem 1.2rem;
 }
 
+
 .blochotel{
-	height: auto;
-	margin: 0.5rem 0.5rem;
-	width: 20rem;
+	margin: 0.8rem 0.8rem;
+	width: 80%;
 	height: 12.5rem;
 }
 
@@ -953,11 +952,12 @@ caption p{
 }
 
 
+/*  ----Hotels populaires version mobile  --- */
 
 aside{
+	width: 100%;
+	height: auto;
 	order: 1;
-	/*width: 100%;
-	max-width: 375px;*/
 	margin: 0;
 }
 
@@ -969,10 +969,8 @@ aside{
 
 
 #hotels-populaires{
-	display: block;
+
 	margin: 0.5rem 0;
-	/*width: 100%;
-	max-width: 375px;*/
 	height: auto;
 }
 
@@ -980,6 +978,7 @@ aside{
 .blocaside{
 	margin-left: 2rem;
 	width: 75%;
+	height: 9.8rem;
 }
 
 
@@ -997,8 +996,7 @@ aside{
 	display: block;
 	height: auto;
 	width: 100%;
-	max-width: 375px;
-	margin-left: 2.5rem;
+	margin-left: 1rem;
 	
 }
 
@@ -1034,15 +1032,17 @@ aside{
 
 
 #petit-bloc1{
-	display: block;
+	/*display: block;*/
 	width: 80%;
-	margin-bottom: 1.25rem;
+	height: auto;
+	margin-bottom: 1rem;
 }
 
 #petit-bloc2{
-	display: block;
+	/*display: block;*/
 	width: 80%;
-	margin-bottom: 3rem;
+	height: auto;
+	margin-bottom: 2rem;
 
 }
 
@@ -1079,8 +1079,6 @@ aside{
 
 footer{
 	display: block;
-	/*width: 100%;
-	max-width: 375px;*/
 	height: auto;
 	padding-bottom: 2.5rem;
 
