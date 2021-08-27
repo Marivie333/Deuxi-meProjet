@@ -1264,7 +1264,7 @@ aside{
 	justify-content: space-around;
 	width: 100%;
 	max-width: 768px;
-	height: 400px;
+	min-height: auto;
 	box-sizing: border-box;
 }
 
@@ -1273,23 +1273,27 @@ aside{
 
 #bloc1, #petit-bloc1{
 	background-color: dimgray;
-	max-width: 128px;
+	width: 20%;
+	min-height: auto;
+	/*max-width: 128px;
 	margin-left: -14rem;
-	margin-right: -12rem;
+	margin-right: -12rem;*/
 }
 
 
 #bloc2, #petit-bloc2{
-	
-	max-width: 128px;
+	width: 20%;
+	min-height: auto;
+	/*max-width: 128px;
 	margin-left: -14rem;
-	margin-right: -12rem;
+	margin-right: -12rem;*/
 }
 
 
 
 .bloc-activités{
-	max-width: 45%;
+	width: 100%;
+	min-height: auto;
 }
 
 .bloc-activités img{
@@ -1299,18 +1303,22 @@ aside{
 
 .bloc-activités h3{
 	word-wrap: break-word;
-	font-size: 0.9rem;
-	padding-top: 1.5rem;
+	font-size: 0.8rem;
+	padding-top: 1rem;
+	margin-left: 0.5rem;
 }
 
 
 .activités-mini1{
-	max-width: 45%;
+	max-width: 100%;
+	min-height: auto;
 }
 
 
 .activités-mini1 h3{
-	font-size: 0.9rem;
+	font-size: 0.8rem;
+	padding-top: -0.8rem;
+	margin-left: 0.5rem;
 }
 
 
@@ -1321,11 +1329,14 @@ aside{
 
 
 .activités-mini2{
-	max-width: 45%;
+	max-width: 100%;
+	min-height: auto;
+
 }
 
 .activités-mini2 h3{
-	font-size: 0.9rem;
+	font-size: 0.8rem;
+	margin-left: 0.5rem;
 }
 
 .activités-mini2 img{
