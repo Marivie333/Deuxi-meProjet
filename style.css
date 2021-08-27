@@ -1406,6 +1406,15 @@ footer{
 	flex-wrap: wrap;
 }
 
+/*  --Bloc hotels-marseille Section 2 version tablette >769px   --*/
+
+
+.blochotel img{
+	height: 60%;
+}
+
+
+
 
 /*  --Bloc aside Section 2 version tablette >769px  -- */
 
@@ -1442,6 +1451,10 @@ footer{
 }
 
 }
+
+
+
+
 
 /*
 
