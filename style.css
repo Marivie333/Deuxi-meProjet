@@ -1135,14 +1135,14 @@ header{
 }
 
 #menu a{
-	border-top: none;
+	/*border-top: none;*/
 	border-bottom: solid 0.25rem #F2F2F2;
 	width: 50%;
 	text-align: center;
 }
 
 #menu a:hover{
-	/*border-top: none;*/
+	border-top: none;
 	border-bottom: solid;
 	color: #0065FC;
 
