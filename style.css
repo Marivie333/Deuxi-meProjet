@@ -1241,12 +1241,19 @@ aside{
 
 
 #titre-chart{
-	justify-content: space-between;
-	margin-left: -1rem;
+	width: 80%;
+	min-width: 248px;
+	/*justify-content: space-between;*/
+	padding-left: 5rem;
+	/*margin-left: -0.5rem;*/
 	margin-bottom: 0.625rem;
 
 }
 
+
+#titre-chart h2{
+	margin-left: -2rem;
+}
 
 
 #hotels-populaires{
@@ -1381,11 +1388,63 @@ footer{
 
 
 
-/*  -- Screen size between 768p and 991px --*/
+
+
+/*  -- Screen size more than 769px --*/
 
 
 
-/*@media all and (min-width: 768px) and (max-width: 991px){
+@media screen and (min-width: 769px){
+
+
+
+/*   --Bloc filtre Section 1 version tablette >769px --*/
+
+#filtres{
+	width: 100%;
+	height: auto;
+	flex-wrap: wrap;
+}
+
+
+/*  --Bloc aside Section 2 version tablette >769px  -- */
+
+#titre-chart{
+	display: flex;
+	width: 100%;
+	margin-left: -0.5rem;
+}
+
+#chart{
+	margin-right: 1rem;
+	
+}
+
+.blocaside{
+	min-height: auto;
+}
+
+.légende h3{
+	margin-top: -0.5rem;
+}
+
+/*  --Footer version tablette >769px  --*/
+
+footer{
+	width: 100%;
+	max-width: 1140px;
+}
+
+.liens{
+	margin-right: 70px;
+	margin-top: 40px;
+	margin-left: 20px;
+}
+
+}
+
+/*
+
 
 body{
 	margin: 0.3125rem;
