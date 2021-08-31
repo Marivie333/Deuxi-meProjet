@@ -797,10 +797,11 @@ nav{
 
 
 #hébergements-recherche{
-	/*width: 100%;
-	max-width: 375px;*/
+	width: 100%;
+	/*max-width: 375px;*/
 	height: auto;
 	margin: 2rem 0;
+	box-sizing: border-box;
 
 }
 
@@ -871,10 +872,10 @@ form{
 
 
 #filtres{
-	flex-direction: row;
-	justify-content: flex-start;
+	flex-direction: column;
+	align-items: flex-start;
 	width: 100%;
-	max-width: 375px;
+	/*max-width: 375px;*/
 	height: auto;
 	flex-wrap: wrap;
 }
