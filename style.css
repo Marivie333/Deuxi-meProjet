@@ -731,11 +731,12 @@ body{
 header{
 	height: auto;
 	flex-direction: column;
+	width: 100%;
 }
 
 
 #logo{
-	margin-left: 0.5rem;
+	margin-left: -1rem;
 }
 
 
