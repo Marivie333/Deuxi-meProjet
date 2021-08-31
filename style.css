@@ -921,13 +921,16 @@ form{
 
 #hotels-marseille{
 	order: 2;
-	/*width: 100%;*/
+	width: 100%;
 	/*flex-direction: column;*/
 	margin-bottom: 3.125rem;
 	background-color: white;
 
 }
 
+.grand-titre{
+	text-align: left;
+}
 
 .ligne{
 	display: block;
