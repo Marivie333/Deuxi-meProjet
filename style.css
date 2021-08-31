@@ -1272,9 +1272,9 @@ aside{
 
 #titre-chart{
 	width: 80%;
-	min-width: 248px;
+	/*min-width: 248px;*/
 	/*justify-content: space-between;*/
-	padding-left: 5rem;
+	padding-left: 3rem;
 	/*margin-left: -0.5rem;*/
 	margin-bottom: 0.625rem;
 
