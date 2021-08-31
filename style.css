@@ -757,6 +757,7 @@ nav{
 	/*align-items: center;*/
 	/*margin-bottom: 1.5rem;*/
 	position: relative;
+	width: 100%;
 	/*top: 2.5rem ;*/
 	/*left: -5rem;*/
 	/*padding: 0.2rem;*/
@@ -778,7 +779,7 @@ nav{
 #inscription{
 	position: absolute;
 	top: 1.25rem;
-	right: -0.5rem;
+	right: 3rem;
 	/*max-width: 30%;*/
 }
 
