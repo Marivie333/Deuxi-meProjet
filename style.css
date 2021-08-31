@@ -1002,8 +1002,9 @@ aside{
 .activités-marseille{
 	display: block;
 	height: auto;
-	width: 100%;
+	width: 375px;
 	margin-left: 1rem;
+	box-sizing: border-box;
 	
 }
 
@@ -1091,9 +1092,11 @@ aside{
 
 
 footer{
+	width: 375px;
 	display: block;
 	height: auto;
 	padding-bottom: 2.5rem;
+	box-sizing: border-box;
 
 }
 
