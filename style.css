@@ -1464,8 +1464,8 @@ footer{
 
 footer{
 	width: 100%;
+	min-width: 769px;
 	padding-bottom: 15%;
-	/*max-width: 1140px;*/
 }
 
 .liens{
