@@ -161,6 +161,7 @@ nav a:hover{
 	flex-direction: row;
 	margin: 1.25rem 0 1.25rem 0;
 	width: 28rem;
+	height: 3rem;
 	border-radius: 0.625rem;
 }
 
@@ -177,6 +178,7 @@ nav a:hover{
 .recherche-input{
 	font-weight: bold;
 	color: black;
+	height: 3rem;
 	font-size: 0.8rem;
 	border-top: 0.1rem solid #F2F2F2;
 	border-bottom: 0.1rem solid #F2F2F2;
@@ -731,7 +733,7 @@ body{
 header{
 	height: auto;
 	flex-direction: column;
-	/*max-width: 375px;*/
+	width: 360px;
 
 }
 
@@ -829,18 +831,18 @@ nav{
 
 
 .recherche-form{
-	max-width: 70%;
+	width: 12rem;
 	display: flex;
-	justify-content: center;
-	align-items: center;
 	margin-bottom: 0.5rem;
+	
 }
 
 
 /*form{
-	max-width: 200px;
-}
-*/
+	max-width: 150px;
+	align-items: center;
+}*/
+
 
 
 .bouton{
@@ -887,8 +889,9 @@ nav{
 
 
 #titre-filtre{
-	width: 350px;
-	flex-wrap: wrap;
+	width: 120px;
+	/*flex-wrap: wrap;*/
+	padding-left: 1rem;
 	text-align: left;
 	font-weight: bold;
 }
