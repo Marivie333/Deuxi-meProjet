@@ -881,7 +881,6 @@ nav{
 	flex-direction: column;
 	align-items: flex-start;
 	width: 350px;
-	/*max-width: 375px;*/
 	height: auto;
 	flex-wrap: wrap;
 }
@@ -902,7 +901,7 @@ nav{
 
 
 #information p{
-	margin: 0;
+	margin-left: 0.5rem;
 
 }
 
@@ -1009,7 +1008,7 @@ aside{
 .activités-marseille{
 	display: block;
 	height: auto;
-	width: 375px;
+	width: 360px;
 	margin-left: 1rem;
 	box-sizing: border-box;
 	
