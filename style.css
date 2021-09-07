@@ -919,7 +919,6 @@ nav{
 #hébergements{
 	display: flex;
 	flex-direction: column;
-	/*justify-content: space-around;*/
 	width: 375px;
 	height: auto;
 	box-sizing: border-box;
@@ -928,10 +927,11 @@ nav{
 
 #hotels-marseille{
 	order: 2;
-	width: 375px;
-	/*flex-direction: column;*/
-	margin-bottom: 3.125rem;
+	width: 350px;
+	/*margin-bottom: 3.125rem;*/
+	margin: 0 1.2rem 3.125rem 1.2rem;
 	background-color: white;
+	box-sizing: border-box;
 
 }
 
@@ -943,7 +943,7 @@ nav{
 
 .ligne{
 	display: block;
-	width: 375px;
+	width: 350px;
 	height: auto;
 	/*margin: 0.8rem 1.2rem;*/
 }
@@ -968,7 +968,7 @@ caption p{
 /*  ----Hotels populaires version mobile  --- */
 
 aside{
-	width: 375px;
+	width: 360px;
 	height: auto;
 	order: 1;
 	margin: 0;
@@ -976,8 +976,7 @@ aside{
 
 #titre-chart{
 	display: flex;
-	width: 100%;
-	max-width: 375px;
+	width: 350px;
 }
 
 
