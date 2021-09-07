@@ -767,6 +767,7 @@ nav{
 	/*margin-bottom: 1.5rem;*/
 	position: relative;
 	width: 200px;
+	margin-left: 1rem;
 	/*top: 2.5rem ;*/
 	/*left: -5rem;*/
 	/*padding: 0.2rem;*/
@@ -833,6 +834,7 @@ nav{
 .recherche-form{
 	width: 12rem;
 	display: flex;
+	margin-left: 1rem;
 	margin-bottom: 0.5rem;
 	
 }
