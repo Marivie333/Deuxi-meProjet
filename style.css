@@ -719,7 +719,7 @@ div{
 
 
 body{
-	/*width: 375px;*/
+	max-width: 375px;
 	height: auto;
 	box-sizing: border-box;
 	/*margin: 0.3125rem 0;*/
@@ -767,7 +767,7 @@ nav{
 	/*margin-bottom: 1.5rem;*/
 	position: relative;
 	width: 200px;
-	margin-left: 1rem;
+	margin-left: 2.5rem;
 	/*top: 2.5rem ;*/
 	/*left: -5rem;*/
 	/*padding: 0.2rem;*/
@@ -884,7 +884,8 @@ nav{
 #filtres{
 	flex-direction: column;
 	align-items: flex-start;
-	width: 350px;
+	width: 340px;
+	margin-left: 1rem;
 	height: auto;
 	flex-wrap: wrap;
 }
@@ -934,14 +935,14 @@ nav{
 	order: 2;
 	width: 350px;
 	/*margin-bottom: 3.125rem;*/
-	margin: 0 1.2rem 3.125rem 1.2rem;
+	margin: 0 0 3.125rem 1.5rem;
 	background-color: white;
 	box-sizing: border-box;
 
 }
 
 .grand-titre{
-	width: 300px;
+	width: 250px;
 	text-align: left;
 	font-size: large;
 	margin-left: 5px;
@@ -975,7 +976,7 @@ caption p{
 /*  ----Hotels populaires version mobile  --- */
 
 aside{
-	width: 375px;
+	width: 355px;
 	height: auto;
 	order: 1;
 	margin: 0;
@@ -983,7 +984,8 @@ aside{
 
 #titre-chart{
 	display: flex;
-	width: 350px;
+	width: 220px;
+	margin-left: 8px;
 }
 
 
