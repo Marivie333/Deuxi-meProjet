@@ -1149,7 +1149,7 @@ header{
 }
 
 #logo img{
-	width: 80px;
+	width: 5rem;
 	margin-left: 0.5rem;	
 }
 
@@ -1185,7 +1185,8 @@ nav{
 #inscription{
 	position: absolute;
 	top: 1rem;
-	right: -1.5rem;
+	right: -0.5rem;
+	box-sizing: border-box;
 
 }
 
