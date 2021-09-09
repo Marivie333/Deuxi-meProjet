@@ -1141,6 +1141,7 @@ body{
 	margin: 0;
 	width: 100%;
 	max-width: 48rem;
+	box-sizing: border-box;
 }
 
 header{
@@ -1185,7 +1186,7 @@ nav{
 #inscription{
 	position: absolute;
 	top: 1rem;
-	right: -0.5rem;
+	right: -0.1rem;
 	box-sizing: border-box;
 
 }
