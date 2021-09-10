@@ -7,7 +7,7 @@ body{
 	max-width: 90rem;
 	width: 100%;
 	margin: 0;
-	overflow-x: hidden;
+	overflow-x: auto;
 }
 
 
@@ -840,12 +840,6 @@ nav{
 }
 
 
-/*form{
-	max-width: 150px;
-	align-items: center;
-}*/
-
-
 
 .bouton{
 	width: 3rem;
@@ -1017,7 +1011,7 @@ aside{
 	display: block;
 	height: auto;
 	width: 360px;
-	margin-left: 1rem;
+	margin-left: 0.8rem;
 	box-sizing: border-box;
 	
 }
@@ -1027,7 +1021,7 @@ aside{
 	width: 80%;
 	height: 3.75rem;
 	margin-bottom: 10rem;
-	margin-left: 1rem;
+	margin-left: 0.8rem;
 }
 
 #bloc2{
@@ -1035,7 +1029,7 @@ aside{
 	height: 3.75rem;
 	margin-bottom: 10rem;
 	margin-top: 1.5rem;
-	margin-left: 1rem;
+	margin-left: 0.8rem;
 }
 
 
@@ -1060,7 +1054,7 @@ aside{
 	width: 80%;
 	height: auto;
 	margin-bottom: 1rem;
-	margin-left: 1rem;
+	margin-left: 0.8rem;
 }
 
 #petit-bloc2{
@@ -1068,7 +1062,7 @@ aside{
 	width: 80%;
 	height: auto;
 	margin-bottom: 1rem;
-	margin-left: 1rem;
+	margin-left: 0.8rem;
 
 }
 
