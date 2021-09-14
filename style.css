@@ -879,7 +879,7 @@ nav{
 #hébergements{
 	display: flex;
 	flex-direction: column;
-	width: 23.4rem;
+	width: 22.5rem;
 	height: auto;
 	box-sizing: border-box;
 }
@@ -997,7 +997,6 @@ aside{
 .bloc-activités{
 	width: 100%;
 	height: 12.5rem;
-	/*margin: 0.625rem 1.25rem;*/
 
 }
 
@@ -1010,7 +1009,6 @@ aside{
 
 
 #petit-bloc1{
-	/*display: block;*/
 	width: 80%;
 	height: auto;
 	margin-bottom: 1rem;
@@ -1018,7 +1016,6 @@ aside{
 }
 
 #petit-bloc2{
-	/*display: block;*/
 	width: 80%;
 	height: auto;
 	margin-bottom: 1rem;
@@ -1031,14 +1028,12 @@ aside{
 	width: 100%;
 	height: 12.5rem;
 	margin-bottom: 1rem;
-	/*margin: 1.25rem 1.25rem;*/
 }
 
 .activités-mini2{
 	width: 100%;
 	height: 12.5rem;
 	margin-bottom: 1rem;
-	/*margin: 1.25rem 1.25rem;*/
 	
 }
 
