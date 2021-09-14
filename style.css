@@ -888,7 +888,7 @@ nav{
 #hotels-marseille{
 	order: 2;
 	width: 21.875rem;
-	margin: 0 0 3.125rem 1.5rem;
+	margin: 0 0 3.125rem 0.8rem;
 	background-color: white;
 	box-sizing: border-box;
 
@@ -898,7 +898,7 @@ nav{
 	width: 15.625rem;
 	text-align: left;
 	font-size: large;
-	margin-left: 5px;
+	margin-left: 0.3125rem;
 }
 
 
@@ -1055,7 +1055,7 @@ aside{
 
 
 footer{
-	width: 23.4375rem;
+	width: 23.125rem;
 	display: block;
 	height: auto;
 	padding-bottom: 2.5rem;
