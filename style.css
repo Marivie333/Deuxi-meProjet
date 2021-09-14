@@ -699,7 +699,6 @@ body{
 	max-width: 375px;
 	height: auto;
 	box-sizing: border-box;
-	/*margin: 0.3125rem 0;*/
 	
 }
 
@@ -727,27 +726,17 @@ header{
 
 nav{
 	display: flex;
-	width: 250px;
-	/*flex-direction: column;*/
+	width: 15.5rem;
 	justify-content: space-between;
-	/*width: 100%;
-	max-width: 375px;*/
-	/*padding-top: 0.15rem;*/
-	/*margin-left: 80rem;*/
 	box-sizing: border-box;
 }
 
 
 #menu{
 	display: flex;
-	/*align-items: center;*/
-	/*margin-bottom: 1.5rem;*/
 	position: relative;
-	width: 200px;
+	width: 12.5rem;
 	margin-left: 2.5rem;
-	/*top: 2.5rem ;*/
-	/*left: -5rem;*/
-	/*padding: 0.2rem;*/
 }
 
 
@@ -784,8 +773,7 @@ nav{
 
 
 #hébergements-recherche{
-	width: 350px;
-	/*max-width: 375px;*/
+	width: 21.875rem;
 	height: auto;
 	margin: 2rem 0.7rem;
 	box-sizing: border-box;
@@ -855,7 +843,7 @@ nav{
 #filtres{
 	flex-direction: column;
 	align-items: flex-start;
-	width: 340px;
+	width: 21.25rem;
 	margin-left: 1rem;
 	height: auto;
 	flex-wrap: wrap;
@@ -863,8 +851,7 @@ nav{
 
 
 #titre-filtre{
-	width: 120px;
-	/*flex-wrap: wrap;*/
+	width: 20rem;
 	padding-left: 1rem;
 	text-align: left;
 	font-weight: bold;
@@ -872,19 +859,15 @@ nav{
 
 
 .bloc-filtre{
-	margin-right: 20px;
-	height: 50px;
+	margin-right: 1.25rem;
+	height: 3.125rem;
 }
 
 
-/*#information p{
-	margin-left: 0.5rem;
-
-}*/
 
 #information{
 	display: flex;
-	width: 320px;
+	width: 20rem;
 	margin-left: 0.5rem;
 }
 
@@ -896,7 +879,7 @@ nav{
 #hébergements{
 	display: flex;
 	flex-direction: column;
-	width: 375px;
+	width: 23.4rem;
 	height: auto;
 	box-sizing: border-box;
 }
@@ -904,8 +887,7 @@ nav{
 
 #hotels-marseille{
 	order: 2;
-	width: 350px;
-	/*margin-bottom: 3.125rem;*/
+	width: 21.875rem;
 	margin: 0 0 3.125rem 1.5rem;
 	background-color: white;
 	box-sizing: border-box;
@@ -913,7 +895,7 @@ nav{
 }
 
 .grand-titre{
-	width: 250px;
+	width: 15.625rem;
 	text-align: left;
 	font-size: large;
 	margin-left: 5px;
@@ -922,9 +904,8 @@ nav{
 
 .ligne{
 	display: block;
-	width: 350px;
+	width: 21.875rem;
 	height: auto;
-	/*margin: 0.8rem 1.2rem;*/
 }
 
 
@@ -934,10 +915,12 @@ nav{
 	height: 12.5rem;
 }
 
+
 .blochotel img{
 	width: 100%;
 	height: 60%;
 }
+
 
 caption p{
 	font-size: 0.5rem;
@@ -947,7 +930,7 @@ caption p{
 /*  ----Hotels populaires version mobile  --- */
 
 aside{
-	width: 355px;
+	width: 22rem;
 	height: auto;
 	order: 1;
 	margin: 0;
@@ -955,8 +938,8 @@ aside{
 
 #titre-chart{
 	display: flex;
-	width: 220px;
-	margin-left: 8px;
+	width: 13.75rem;
+	margin-left: 0.5rem;
 }
 
 
@@ -987,7 +970,7 @@ aside{
 .activités-marseille{
 	display: block;
 	height: auto;
-	width: 360px;
+	width: 22.5rem;
 	margin-left: 0.8rem;
 	box-sizing: border-box;
 	
@@ -1077,7 +1060,7 @@ aside{
 
 
 footer{
-	width: 375px;
+	width: 23.4375rem;
 	display: block;
 	height: auto;
 	padding-bottom: 2.5rem;
